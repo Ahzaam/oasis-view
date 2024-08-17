@@ -6,6 +6,7 @@ const {
   getAllSchedules,
   getVisitByScheduleId,
   getTranscription,
+  getPatientDetails
 } = require("./oasis.helper");
 
 async function processDB() {
@@ -29,6 +30,10 @@ async function processDB() {
       );
       visitTemplate.visitTranscriptions = JSON.stringify(
         await getTranscription(schedules[0][i].ScheduledId)
+      );
+
+      visitTemplate.patientDetails = JSON.stringify(
+        await getPatientDetails(visitTemplate.PatientId)
       );
 
       if (visitTemplate.processType === null) {
