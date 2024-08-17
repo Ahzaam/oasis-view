@@ -32,8 +32,8 @@ async function processDB() {
         await getTranscription(schedules[0][i].ScheduledId)
       );
 
-      visitTemplate.patientDetails = JSON.stringify(
-        await getPatientDetails(visitTemplate.PatientId)
+      visitTemplate.PatientDetails = JSON.stringify(
+        await getPatientDetails(schedules[0][i].PatientId)
       );
 
       if (visitTemplate.processType === null) {
