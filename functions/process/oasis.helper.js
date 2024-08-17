@@ -134,6 +134,23 @@ async function getTranscription(scheduleId) {
   }
 }
 
+
+async function getPatientDetails(patientId) {
+
+  try {
+    const patient = await sequelizeConnection.query(
+      `SELECT * FROM Patients WHERE PatientId = ${patientId}`
+    );
+    return patient[0][0];
+  }
+  catch (e) {
+    console.log(e);
+  } 
+}
+
+
+
+
 async function getOasisQuestions(scheduleId) {
   try {
     const questions = await sequelizeConnection.query(
@@ -146,4 +163,4 @@ async function getOasisQuestions(scheduleId) {
   }
 }
 
-module.exports = { getAllSchedules, getVisitByScheduleId, getTranscription };
+module.exports = { getAllSchedules, getVisitByScheduleId, getTranscription , getPatientDetails};
