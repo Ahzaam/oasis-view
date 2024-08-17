@@ -1,0 +1,6092 @@
+[
+  {
+    "code": "M0040A",
+    "questionText": "First Name",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "input",
+    "characterLimit": 12,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 1,
+    "answerPageOrder": 8
+  },
+  {
+    "code": "M0040B",
+    "questionText": "MI Name",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "input",
+    "characterLimit": 1,
+    "questionOrder": 2,
+    "options": [],
+    "answer": "",
+    "pageNumber": 1,
+    "answerPageOrder": 8
+  },
+  {
+    "code": "M0040C",
+    "questionText": "Last Name",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "input",
+    "characterLimit": 11,
+    "questionOrder": 3,
+    "options": [],
+    "answer": "",
+    "pageNumber": 1,
+    "answerPageOrder": 8
+  },
+  {
+    "code": "M0040D",
+    "questionText": "Name Suffix",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "input",
+    "characterLimit": 3,
+    "questionOrder": 4,
+    "options": [],
+    "answer": "",
+    "pageNumber": 1,
+    "answerPageOrder": 8
+  },
+  {
+    "code": "M0069",
+    "questionText": "Gender",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Male",
+        "value": "1"
+      },
+      {
+        "text": "2. Female",
+        "value": "2"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 1,
+    "answerPageOrder": 14,
+    "characterLimit": 1
+  },
+  {
+    "code": "A1005",
+    "questionText": "Ethnicity",
+    "questionSubtext": "Are you of Hispanic, Latino/a, or Spanish origin?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. No, not of Hispanic, Latino/a, or Spanish origin",
+        "value": false
+      },
+      {
+        "text": "B. Yes, Mexican, Mexican American, Chicano/a",
+        "value": false
+      },
+      {
+        "text": "C. Yes, Puerto Rican",
+        "value": false
+      },
+      {
+        "text": "D. Yes, Cuban",
+        "value": false
+      },
+      {
+        "text": "E. Yes, Another Hispanic, Latino, or Spanish origin",
+        "value": false
+      },
+      {
+        "text": "X. Patient unable to respond",
+        "value": false
+      },
+      {
+        "text": "Y. Patient declines to respond",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 2,
+    "answerPageOrder": 2,
+    "characterLimit": null
+  },
+  {
+    "code": "A1010",
+    "questionText": "Race",
+    "questionSubtext": "What is your race?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. White",
+        "value": false
+      },
+      {
+        "text": "B. Black or African American",
+        "value": false
+      },
+      {
+        "text": "C. American Indian or Alaska Native",
+        "value": false
+      },
+      {
+        "text": "D. Asian Indian",
+        "value": false
+      },
+      {
+        "text": "E. Chinese",
+        "value": false
+      },
+      {
+        "text": "F. Filipino",
+        "value": false
+      },
+      {
+        "text": "G. Japanese",
+        "value": false
+      },
+      {
+        "text": "H. Korean",
+        "value": false
+      },
+      {
+        "text": "I. Vietnamese",
+        "value": false
+      },
+      {
+        "text": "J. Other Asian",
+        "value": false
+      },
+      {
+        "text": "K. Native Hawaiian",
+        "value": false
+      },
+      {
+        "text": "L. Guamanian or Chamorro",
+        "value": false
+      },
+      {
+        "text": "M. Samoan",
+        "value": false
+      },
+      {
+        "text": "N. Other Pacific Islander",
+        "value": false
+      },
+      {
+        "text": "X. Patient unable to respond",
+        "value": false
+      },
+      {
+        "text": "Y. Patient declines to respond",
+        "value": false
+      },
+      {
+        "text": "Z. None of the above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 2,
+    "answerPageOrder": 3,
+    "characterLimit": null
+  },
+  {
+    "code": "M0150",
+    "questionText": "Current Payment Sources for Home Care",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. None; no charge for current services",
+        "value": false
+      },
+      {
+        "text": "1. Medicare (traditional fee-for-service)",
+        "value": false
+      },
+      {
+        "text": "2. Medicare (HMO/managed care/Advantage plan)",
+        "value": false
+      },
+      {
+        "text": "3. Medicaid (traditional fee-for-service)",
+        "value": false
+      },
+      {
+        "text": "4. Medicaid (HMO/managed care)",
+        "value": false
+      },
+      {
+        "text": "5. Workers' compensation",
+        "value": false
+      },
+      {
+        "text": "6. Title programs (for example, Title III, V, or XX)",
+        "value": false
+      },
+      {
+        "text": "7. Other government (for example, TriCare, VA)",
+        "value": false
+      },
+      {
+        "text": "8. Private insurance",
+        "value": false
+      },
+      {
+        "text": "9. Private HMO/managed care",
+        "value": false
+      },
+      {
+        "text": "10. Self-pay",
+        "value": false
+      },
+      {
+        "text": "11. Other (specify)",
+        "value": false
+      },
+      {
+        "text": "UK. Unknown",
+        "value": "UK"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 2,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "A1110A",
+    "questionText": "A. What is your preferred language?",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "input",
+    "characterLimit": 17,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 3,
+    "answerPageOrder": 1,
+    "guide": "Guide: Specify preferred language and indicate interpreter requirement for medical communication."
+  },
+  {
+    "code": "A1110B",
+    "questionText": "B. Do you need or want an interpreter to communicate with a doctor or health care staff?",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "characterLimit": 17,
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      },
+      {
+        "text": "9. Unable to determine",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 3,
+    "answerPageOrder": 1,
+    "guide": "Guide: Specify preferred language and indicate interpreter requirement for medical communication."
+  },
+  {
+    "code": "M0080",
+    "questionText": "Discipline of Person Completing Assessment",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. RN",
+        "value": "1"
+      },
+      {
+        "text": "2. PT",
+        "value": "2"
+      },
+      {
+        "text": "3. SLP/ST",
+        "value": "3"
+      },
+      {
+        "text": "4. OT",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 3,
+    "answerPageOrder": 2,
+    "characterLimit": null
+  },
+  {
+    "code": "M0100",
+    "questionText": "This Assessment is Currently Being Completed for the Following Reason",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Start of care – further visits planned",
+        "value": "1",
+        "optionCategory": "Start/Resumption of Care"
+      },
+      {
+        "text": "3. Resumption of care (after inpatient stay)",
+        "value": "3",
+        "optionCategory": "Start/Resumption of Care"
+      },
+      {
+        "text": "4. Recertification (follow-up) reassessment",
+        "value": "4",
+        "optionCategory": "Follow-Up"
+      },
+      {
+        "text": "5. Other follow-up",
+        "value": "5",
+        "optionCategory": "Follow-Up"
+      },
+      {
+        "text": "6. Transferred to an inpatient facility – patient not discharged from agency",
+        "value": "6",
+        "optionCategory": "Transfer to an Inpatient Facility"
+      },
+      {
+        "text": "7. Transferred to an inpatient facility – patient discharged from agency",
+        "value": "7",
+        "optionCategory": "Transfer to an Inpatient Facility"
+      },
+      {
+        "text": "8. Death at home",
+        "value": "8",
+        "optionCategory": "Discharge from Agency – Not to an Inpatient Facility"
+      },
+      {
+        "text": "9. Discharge from agency",
+        "value": "9",
+        "optionCategory": "Discharge from Agency – Not to an Inpatient Facility"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 3,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "M0110",
+    "questionText": "Episode Timing",
+    "questionSubtext": "Is the Medicare home health payment episode for which this assessment will define a case mix group an “early” episode or a “later” episode in the patient’s current sequence of adjacent Medicare home health payment episodes?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Early",
+        "value": "1"
+      },
+      {
+        "text": "2. Later",
+        "value": "2"
+      },
+      {
+        "text": "UK Unknown",
+        "value": "UK"
+      },
+      {
+        "text": "NA Not Applicable: No Medicare case mix group to be defined by this assessment.",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 4,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "A1250",
+    "questionText": "Transportation (NACHC ©)",
+    "questionSubtext": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living?",
+    "sectionDescription": "Administrative Information",
+    "guide": "Guide: Note if transportation shortage prevented the individual from attending medical, work-related, and basic needs-related appointments.",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. Yes, it has kept me from medical appointments or from getting my medications",
+        "value": false
+      },
+      {
+        "text": "B. Yes, it has kept me from non-medical meetings, appointments, work, or from getting things that I need",
+        "value": false
+      },
+      {
+        "text": "C. No",
+        "value": false
+      },
+      {
+        "text": "X. Patient unable to respond",
+        "value": false
+      },
+      {
+        "text": "Y. Patient declines to respond",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 4,
+    "answerPageOrder": 2,
+    "characterLimit": null
+  },
+  {
+    "code": "M1000",
+    "questionText": "From which of the following Inpatient Facilities was the patient discharged within the past 14 days?",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Long-term nursing facility (NF)",
+        "value": false
+      },
+      {
+        "text": "2. Skilled nursing facility (SNF/TCU)",
+        "value": false
+      },
+      {
+        "text": "3. Short-stay acute hospital (IPPS)",
+        "value": false
+      },
+      {
+        "text": "4. Long-term care hospital (LTCH)",
+        "value": false
+      },
+      {
+        "text": "5. Inpatient rehabilitation hospital or unit (IRF)",
+        "value": false
+      },
+      {
+        "text": "6. Psychiatric hospital or unit",
+        "value": false
+      },
+      {
+        "text": "7. Other (specify)",
+        "value": false
+      },
+      {
+        "text": "NA Patient was not discharged from an inpatient facility",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 4,
+    "answerPageOrder": 3,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "NA",
+        "fieldValueForSkip": true,
+        "skipToField": "B1300",
+        "skipToText": "Skip to B1300, Health Literacy"
+      }
+    ]
+  },
+  {
+    "code": "M2301",
+    "questionText": "Emergent Care",
+    "questionSubtext": "At the time of or at any time since the most recent SOC/ROC assessment has the patient utilized a hospital emergency department (includes holding/observation status)?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes, used hospital emergency department WITHOUT hospital admission",
+        "value": "1"
+      },
+      {
+        "text": "2. Yes, used hospital emergency department WITH hospital admission",
+        "value": "2"
+      },
+      {
+        "text": "UK Unknown",
+        "value": "UK"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 4,
+    "answerPageOrder": 5,
+    "characterLimit": 8,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M2410",
+        "skipToText": "Skip to M2410, Inpatient Facility"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "UK",
+        "skipToField": "M2410",
+        "skipToText": "Skip to M2410, Inpatient Facility"
+      }
+    ],
+    "guide": "Guide: Check if patient visited an emergency department since last assessment. Choose '0' for no visit, '1' for visit without hospital admission, '2' for visit with hospital admission and 'UK Unknown' if unsure."
+  },
+  {
+    "code": "M2310",
+    "questionText": "Reason for Emergent Care",
+    "questionSubtext": "For what reason(s) did the patient seek and/or receive emergent care (with or without hospitalization)?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Improper medication administration, adverse drug reactions, medication side effects, toxicity, anaphylaxis",
+        "value": false
+      },
+      {
+        "text": "10. Hypo/Hyperglycemia, diabetes out of control",
+        "value": false
+      },
+      {
+        "text": "19. Other than above reasons",
+        "value": false
+      },
+      {
+        "text": "UK Reason unknown",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 4,
+    "answerPageOrder": 6,
+    "characterLimit": null
+  },
+  {
+    "code": "M2410",
+    "questionText": "To which Inpatient Facility has the patient been admitted?",
+    "questionSubtext": "",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Hospital",
+        "value": "1"
+      },
+      {
+        "text": "2. Rehabilitation facility",
+        "value": "2"
+      },
+      {
+        "text": "3. Nursing home",
+        "value": "3"
+      },
+      {
+        "text": "4. Hospice",
+        "value": "4"
+      },
+      {
+        "text": "NA No inpatient facility admission [Omit “NA” option on TRN]",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "M2420",
+    "questionText": "Discharge Disposition",
+    "questionSubtext": "Where is the patient after discharge from your agency? (Choose only one answer.)",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Patient remained in the community (without formal assistive services)",
+        "value": "1"
+      },
+      {
+        "text": "2. Patient remained in the community (with formal assistive services)",
+        "value": "2"
+      },
+      {
+        "text": "3. Patient transferred to a non-institutional hospice",
+        "value": "3"
+      },
+      {
+        "text": "4. Unknown because patient moved to a geographic location not served by this agency",
+        "value": "4"
+      },
+      {
+        "text": "UK Other unknown ",
+        "value": "UK"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "1",
+        "skipToField": "A2123",
+        "skipToText": "Skip to A2123, Provision of Current Reconciled Medication List to Patient at Discharge"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "2",
+        "skipToField": "A2121",
+        "skipToText": "Continue to A2121, Provision of Current Reconciled Medication List to Subsequent Provider at Discharge"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "3",
+        "skipToField": "A2121",
+        "skipToText": "Continue to A2121, Provision of Current Reconciled Medication List to Subsequent Provider at Discharge"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "4",
+        "skipToField": "A2123",
+        "skipToText": "Skip to A2123, Provision of Current Reconciled Medication List to Patient at Discharge"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "UK",
+        "skipToField": "A2123",
+        "skipToText": "Skip to A2123, Provision of Current Reconciled Medication List to Patient at Discharge"
+      }
+    ]
+  },
+  {
+    "code": "A2120",
+    "questionText": "Provision of Current Reconciled Medication List to Subsequent Provider at Transfer",
+    "questionSubtext": "At the time of transfer to another provider, did your agency provide the patient’s current reconciled medication list to the subsequent provider?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No – Current reconciled medication list not provided to the subsequent provider",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes – Current reconciled medication list provided to the subsequent provider",
+        "value": "1"
+      },
+      {
+        "text": "2. NA – The agency was not made aware of this transfer timely",
+        "value": "2"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 3,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "J1800",
+        "skipToText": "Skip to J1800, Any Falls Since SOC/ROC"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "1",
+        "skipToField": "A2122",
+        "skipToText": "Continue to A2122, Route of Current Reconciled Medication List Transmission to Subsequent Provider"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "2",
+        "skipToField": "J1800",
+        "skipToText": "Skip to J1800, Any Falls Since SOC/ROC"
+      }
+    ]
+  },
+  {
+    "code": "A2121",
+    "questionText": "Provision of Current Reconciled Medication List to Subsequent Provider at Discharge",
+    "questionSubtext": "At the time of discharge to another provider, did your agency provide the patient’s current reconciled medication list to the subsequent provider?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No – Current reconciled medication list not provided to the subsequent provider",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes – Current reconciled medication list provided to the subsequent provider",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 4,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "B1300",
+        "skipToText": "Skip to B1300, Health Literacy"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "1",
+        "skipToField": "A2122",
+        "skipToText": "Continue to A2122. Route of Current Reconciled Medication List Transmission to Subsequent Provider"
+      }
+    ]
+  },
+  {
+    "code": "A2122",
+    "questionText": "Route of Current Reconciled Medication List Transmission to Subsequent Provider",
+    "questionSubtext": "Indicate the route(s) of transmission of the current reconciled medication list to the subsequent provider.",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. Electronic Health Record",
+        "value": false
+      },
+      {
+        "text": "B. Health Information Exchange",
+        "value": false
+      },
+      {
+        "text": "C. Verbal (e.g., in-person, telephone, video conferencing)",
+        "value": false
+      },
+      {
+        "text": "D. Paper-based (e.g., fax, copies, printouts)",
+        "value": false
+      },
+      {
+        "text": "E. Other Methods (e.g., texting, email, CDs)",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 5,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "",
+        "skipToField": "B1300",
+        "skipToText": "After completing A2122, Skip to B1300, Health Literacy at Discharge"
+      }
+    ]
+  },
+  {
+    "code": "A2123",
+    "questionText": "Provision of Current Reconciled Medication List to Patient at Discharge",
+    "questionSubtext": "At the time of discharge, did your agency provide the patient’s current reconciled medication list to the patient, family and/or caregiver?",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No – Current reconciled medication list not provided to the patient, family, and/or caregiver",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes – Current reconciled medication list provided to the patient, family, and/or caregiver",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 5,
+    "answerPageOrder": 6,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "B1300",
+        "skipToText": "Skip to B1300, Health Literacy"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "1",
+        "skipToField": "A2124",
+        "skipToText": "Continue to A2124, Route of Current Reconciled Medication List Transmission to Patient."
+      }
+    ]
+  },
+  {
+    "code": "A2124",
+    "questionText": "Route of Current Reconciled Medication List Transmission to Patient",
+    "questionSubtext": "Indicate the route(s) of transmission of the current reconciled medication list to the patient, family, and/or caregiver.",
+    "sectionDescription": "Administrative Information",
+    "section": "Section A",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. Electronic Health Record",
+        "value": false
+      },
+      {
+        "text": "B. Health Information Exchange",
+        "value": false
+      },
+      {
+        "text": "C. Verbal (e.g., in-person, telephone, video conferencing)",
+        "value": false
+      },
+      {
+        "text": "D. Paper-based (e.g., fax, copies, printouts)",
+        "value": false
+      },
+      {
+        "text": "E. Other Methods (e.g., texting, email, CDs)",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 6,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "B0200",
+    "questionText": "Hearing",
+    "questionSubtext": "Ability to hear (with hearing aid or hearing appliances if normally used)",
+    "sectionDescription": "Hearing, Speech, and Vision",
+    "section": "Section B",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Adequate – sees fine detail, such as regular print in newspapers/books",
+        "value": "0"
+      },
+      {
+        "text": "1. Minimal difficulty – difficulty in some environments (e.g., when person speaks softly, or setting is noisy)",
+        "value": "1"
+      },
+      {
+        "text": "2. Moderate difficulty – speaker has to increase volume and speak distinctly",
+        "value": "2"
+      },
+      {
+        "text": "3. Highly impaired – absence of useful hearing",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 6,
+    "answerPageOrder": 2,
+    "characterLimit": 1,
+    "guide": "Guide: Evaluate hearing level (utilize aids if applicable). Score: 0 for Adequate, 1 for Minimal issues, 2 for Moderate issues, 3 for Highly impaired."
+  },
+  {
+    "code": "B1000",
+    "questionText": "Vision",
+    "questionSubtext": "Ability to see in adequate light (with glasses or other visual appliances)",
+    "sectionDescription": "Hearing, Speech, and Vision",
+    "section": "Section B",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Adequate – sees fine detail, such as regular print in newspapers/books",
+        "value": "0"
+      },
+      {
+        "text": "1. Impaired – sees large print, but not regular print in newspapers/books",
+        "value": "1"
+      },
+      {
+        "text": "2. Moderate impaired – limited vision; not able to see newspaper headlines but can identify objects",
+        "value": "2"
+      },
+      {
+        "text": "3. Highly impaired – object identification in question, but eyes appear to follow objects",
+        "value": "3"
+      },
+      {
+        "text": "4. Severely impaired – no vision or sees only light, colors or shapes; eyes do not appear to follow objects",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 6,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "guide": "\"Assess and rate the individual's vision clarity in normal light, ranging from '0' for fine detailed vision to '4' for severely impaired or no vision.\""
+  },
+  {
+    "code": "B1300",
+    "questionText": "Health Literacy  (From Creative Common@)",
+    "questionSubtext": "How often do you need to have someone help you when you read instructions, pamphlets, or other written material from your doctor or pharmacy?",
+    "sectionDescription": "Hearing, Speech, and Vision",
+    "section": "Section B",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Never",
+        "value": "0"
+      },
+      {
+        "text": "1. Rarely",
+        "value": "1"
+      },
+      {
+        "text": "2. Sometimes",
+        "value": "2"
+      },
+      {
+        "text": "3. Often",
+        "value": "3"
+      },
+      {
+        "text": "4. Always",
+        "value": "4"
+      },
+      {
+        "text": "7. Patient declines to respond",
+        "value": "7"
+      },
+      {
+        "text": "8. Patient unable to respond",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 6,
+    "answerPageOrder": 4,
+    "characterLimit": 1,
+    "guide": "Guide: Gauge how frequently the patient needs help reading health-related materials. Use values from 0 (Never) to 4 (Always), 7 (Patient declines to respond), or 8 (Unable to respond)."
+  },
+  {
+    "code": "C0100",
+    "questionText": "Should Brief Interview for Mental Status (C0200-C0500) be Conducted?",
+    "questionSubtext": "Attempt to conduct interview with all patients.",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No (patient is rarely/never understood) --> Skip to C1310, Signs and Sympyoms of Delirium (from CAM ©)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes --> Continue to C0200, Repitition of Three Words",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 6,
+    "answerPageOrder": 5,
+    "characterLimit": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "C1310",
+        "skipToText": "Skip to C1310, Signs and Symptoms of Delirium (from CAM ©)"
+      },
+      {
+        "field": "",
+        "fieldValueForSkip": "1",
+        "skipToField": "C0200",
+        "skipToText": "Continue to C0200, Repetition of Three Words"
+      }
+    ],
+    "guide": "Guide: Confirm if the Brief Interview for Mental Status should be conducted or not. Use '0' to skip to C1310 and '1' to proceed to C0200."
+  },
+  {
+    "code": "C0200",
+    "questionText": "Repetition of Three Words",
+    "questionSubtext": "Ask patient: “I am going to say three words for you to remember. Please repeat the words after I have said all three. The words are: sock, blue, and bed. Now tell me the three words.” Number of words repeated after first attempt",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. None",
+        "value": "0"
+      },
+      {
+        "text": "1. One",
+        "value": "1"
+      },
+      {
+        "text": "2. Two",
+        "value": "2"
+      },
+      {
+        "text": "3. Three",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 7,
+    "answerPageOrder": 1,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "calculatedField": {
+      "calculationType": "add",
+      "calculationField": "C0500"
+    },
+    "helpText": "After the patient's first attempt, repeat the words using cues (sock, something to wear; blue, a color; bed, a piece of furniture). You may repeat the words up to two more times.",
+    "guide": "Guide: Evaluate patient's memory by asking them to repeat three words: \"sock\", \"blue\" and \"bed\". Note down the count of correct words on first attempt. Use prompts if required."
+  },
+  {
+    "code": "C0300A",
+    "questionText": "A. Ask patient: Please tell me what year it is right now.",
+    "questionSubtext": "A. Able to report correct year",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Missed by > 5 years or no answer",
+        "value": "0"
+      },
+      {
+        "text": "1. Missed by 2-5 years",
+        "value": "1"
+      },
+      {
+        "text": "2. Missed by 1 year",
+        "value": "2"
+      },
+      {
+        "text": "3. Correct",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 7,
+    "answerPageOrder": 2,
+    "calculatedField": {
+      "calculationType": "add",
+      "calculationField": "C0500"
+    },
+    "guide": "Guide: Ask patient about current year, month, day. Rate answer by provided options."
+  },
+  {
+    "code": "C0300B",
+    "questionText": "B. Ask patient: What month are we in right now?",
+    "questionSubtext": "B. Able to report correct month",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Missed by > 1 month or no answer",
+        "value": "0"
+      },
+      {
+        "text": "1. Missed by 6 days to 1 month",
+        "value": "1"
+      },
+      {
+        "text": "2. Accurate within 5 days",
+        "value": "2"
+      }
+    ],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 7,
+    "answerPageOrder": 2,
+    "calculatedField": {
+      "calculationType": "add",
+      "calculationField": "C0500"
+    },
+    "guide": "Guide: Ask patient about current year, month, day. Rate answer by provided options."
+  },
+  {
+    "code": "C0300C",
+    "questionText": "C. Ask patient: What day of the week is today?",
+    "questionSubtext": "C. Able to report correct day of the week",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Incorrect or no answer",
+        "value": "0"
+      },
+      {
+        "text": "1. Correct",
+        "value": "1"
+      }
+    ],
+    "questionOrder": 3,
+    "answer": "",
+    "pageNumber": 7,
+    "answerPageOrder": 2,
+    "calculatedField": {
+      "calculationType": "add",
+      "calculationField": "C0500"
+    },
+    "guide": "Guide: Ask patient about current year, month, day. Rate answer by provided options."
+  },
+  {
+    "code": "C0400",
+    "questionText": "Recall",
+    "questionSubtext": "Ask patient: Let's go back to an earlier question. What were those three words that I asked you to repeat? If unable to remember a word, give cue (something to wear; a color; a piece of furniture) for that word.",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "composite",
+    "childQuestions": [
+      {
+        "type": "codeinput",
+        "questionText": "A. Able to recall “sock”",
+        "characterLimit": 1,
+        "options": [
+          {
+            "text": "0. No – could not recall",
+            "value": "0"
+          },
+          {
+            "text": "1. Yes, after cueing (something to wear)",
+            "value": "1"
+          },
+          {
+            "text": "2. Yes, no cue required",
+            "value": "2"
+          }
+        ],
+        "questionOrder": 1
+      },
+      {
+        "type": "codeinput",
+        "questionText": "B. Able to recall “blue”",
+        "characterLimit": 1,
+        "options": [
+          {
+            "text": "0. No – could not recall",
+            "value": "0"
+          },
+          {
+            "text": "1. Yes, after cueing (a color)",
+            "value": "1"
+          },
+          {
+            "text": "2. Yes, no cue required",
+            "value": "2"
+          }
+        ],
+        "questionOrder": 2
+      },
+      {
+        "type": "codeinput",
+        "questionText": "C. Able to recall “bed”",
+        "characterLimit": 1,
+        "options": [
+          {
+            "text": "0. No – could not recall",
+            "value": "0"
+          },
+          {
+            "text": "1. Yes, after cueing (a piece of furniture)",
+            "value": "1"
+          },
+          {
+            "text": "2. Yes, no cue required",
+            "value": "2"
+          }
+        ],
+        "questionOrder": 3
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 7,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "calculatedField": {
+      "calculationType": "add",
+      "calculationField": "C0500"
+    },
+    "guide": "Guide: Assess the patient's recall ability. Note recall of 'sock', 'blue', 'bed' and indicate whether cues were required or not for each word."
+  },
+  {
+    "code": "C1310A",
+    "questionText": "A. Acute Onset of Mental Status Change - Is there evidence of an acute change in mental status from the patient's baseline?",
+    "questionSubtext": "Code after completing Brief Interview for Mental Status and reviewing medical record.",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "characterLimit": 17,
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      }
+    ],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 1,
+    "helperText": ""
+  },
+  {
+    "code": "C1310B",
+    "questionText": "B. Inattention – Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?",
+    "questionSubtext": "",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 2,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "0. Behavior not present",
+        "1. Behavior continuously present, does not fluctuate",
+        "2. Behavior present, fluctuates (comes and goes, changes in severity)"
+      ]
+    },
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 1,
+    "helperText": ""
+  },
+  {
+    "code": "C1310C",
+    "questionText": "C. Disorganized thinking – Was the patient's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?",
+    "questionSubtext": "",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 3,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "0. Behavior not present",
+        "1. Behavior continuously present, does not fluctuate",
+        "2. Behavior present, fluctuates (comes and goes, changes in severity)"
+      ]
+    },
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 1,
+    "helperText": ""
+  },
+  {
+    "code": "C1310D",
+    "questionText": "D. Altered level of consciousness – Did the patient have altered level of consciousness, as indicated by any of the following criteria?  vigilant – startled easily to any sound or touch  lethargic – repeatedly dozed off when being asked questions, but responded to voice or touch  stuporous – very difficult to arouse and keep aroused for the interview  comatose – could not be aroused",
+    "questionSubtext": "",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 4,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "0. Behavior not present",
+        "1. Behavior continuously present, does not fluctuate",
+        "2. Behavior present, fluctuates (comes and goes, changes in severity)"
+      ]
+    },
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 1,
+    "helperText": ""
+  },
+  {
+    "code": "M1700",
+    "questionText": "Cognitive Functioning",
+    "questionSubtext": "Patient's current (day of assessment) level of alertness, orientation, comprehension, concentration, and immediate memory for simple commands.",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Alert/oriented, able to focus and shift attention, comprehends and recalls task directions independently.",
+        "value": "0"
+      },
+      {
+        "text": "1. Requires prompting (cueing, repetition, reminders) only under stressful or unfamiliar conditions.",
+        "value": "1"
+      },
+      {
+        "text": "2. Requires assistance and some direction in specific situations (for example, on all tasks involving shifting of attention) or consistently requires low stimulus environment due to distractibility.",
+        "value": "2"
+      },
+      {
+        "text": "3. Requires considerable assistance in routine situations. Is not alert and oriented or is unable to shift attention and recall directions more than half the time.",
+        "value": "3"
+      },
+      {
+        "text": "4. Totally dependent due to disturbances such as constant disorientation, coma, persistent vegetative state, or delirium.",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 2,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1710",
+    "questionText": "When Confused",
+    "questionSubtext": "(Reported or Observed Within the Last 14 Days):",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Never",
+        "value": "0"
+      },
+      {
+        "text": "1. In new or complex situations only",
+        "value": "1"
+      },
+      {
+        "text": "2. On awakening or at night only",
+        "value": "2"
+      },
+      {
+        "text": "3. During the day and evening, but not constantly",
+        "value": "3"
+      },
+      {
+        "text": "4. Constantly",
+        "value": "4"
+      },
+      {
+        "text": "NA Patient nonresponsive",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1720",
+    "questionText": "When Anxious",
+    "questionSubtext": "(Reported or Observed Within the Last 14 Days):",
+    "sectionDescription": "Cognitive Patterns",
+    "section": "Section C",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. None of the time",
+        "value": "0"
+      },
+      {
+        "text": "1. Less often than daily",
+        "value": "1"
+      },
+      {
+        "text": "2. Daily, but not constantly",
+        "value": "2"
+      },
+      {
+        "text": "3. All of the time",
+        "value": "3"
+      },
+      {
+        "text": "NA Patient nonresponsive",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 8,
+    "answerPageOrder": 4,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+
+  {
+    "code": "D0150-1A",
+    "questionText": "A. Little interest or pleasure in doing things",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1B",
+    "questionText": "B. Feeling down, depressed, or hopeless",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1C",
+    "questionText": "C. Trouble falling or staying asleep, or sleeping too much",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 3,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1D",
+    "questionText": "D. Feeling tired or having little energy",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 4,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1E",
+    "questionText": "E. Poor appetite or overeating",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 5,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1F",
+    "questionText": "F. Feeling bad about yourself – or that you are a failure or have let yourself or your family down",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 6,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1G",
+    "questionText": "G. Trouble concentrating on things, such as reading the newspaper or watching television",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 7,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1H",
+    "questionText": "H. Moving or speaking so slowly that other people could have noticed. Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 8,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-1I",
+    "questionText": "I. Thoughts that you would be better off dead, or of hurting yourself in some way",
+    "questionSubtext": "Say to patient: Over the last 2 weeks, have you been bothered by any of the following problems?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No (enter 0 in column 2)",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes (enter 0-3 in column 2)",
+        "value": "1"
+      },
+      {
+        "text": "9. No response (leave column 2 blank)",
+        "value": "9"
+      }
+    ],
+    "questionOrder": 9,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is resent, enter 1 (yes) in column 1, Symptom Presence If yes in column 1, then ask the patient: About how often have you been bothered by this? Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency."
+  },
+  {
+    "code": "D0150-2A",
+    "questionText": "A. Little interest or pleasure in doing things",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2B",
+    "questionText": "B. Feeling down, depressed, or hopeless",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2C",
+    "questionText": "C. Trouble falling or staying asleep, or sleeping too much",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 3,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2D",
+    "questionText": "D. Feeling tired or having little energy",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 4,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2E",
+    "questionText": "E. Poor appetite or overeating",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 5,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2F",
+    "questionText": "F. Feeling bad about yourself – or that you are a failure or have let yourself or your family down",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 6,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2G",
+    "questionText": "G. Trouble concentrating on things, such as reading the newspaper or watching television",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 7,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2H",
+    "questionText": "H. Moving or speaking so slowly that other people could have noticed. Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 8,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+  {
+    "code": "D0150-2I",
+    "questionText": "I. Thoughts that you would be better off dead, or of hurting yourself in some way",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. Never or 1 day",
+        "value": "0"
+      },
+      {
+        "text": "1. 2-6 days (several days)",
+        "value": "1"
+      },
+      {
+        "text": "2. 7-11 days (half or more of the days)",
+        "value": "2"
+      },
+      {
+        "text": "3. 12-14 days (nearly every day)",
+        "value": "3"
+      }
+    ],
+    "questionOrder": 9,
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 1,
+    "helperText": "If symptom is present, enter the frequency."
+  },
+
+  {
+    "code": "D0700",
+    "questionText": "Social Isolation",
+    "questionSubtext": "How often do you feel lonely or isolated from those around you?",
+    "sectionDescription": "Mood",
+    "section": "Section D",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Never",
+        "value": "0"
+      },
+      {
+        "text": "1. Rarely ",
+        "value": "1"
+      },
+      {
+        "text": "2. Sometimes ",
+        "value": "2"
+      },
+      {
+        "text": "3. Often",
+        "value": "3"
+      },
+      {
+        "text": "4. Always ",
+        "value": "4"
+      },
+      {
+        "text": "7. Patient declines to respond",
+        "value": "7"
+      },
+      {
+        "text": "8. Patient unable to respond",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 9,
+    "answerPageOrder": 3,
+    "characterLimit": 2,
+    "guide": "Summarized Question: \"Frequency of feelings of loneliness or social isolation?\" \nGuide: Rate based on frequency, 0-never to 4-always, 7-declines to answer, 8-unable to answer."
+  },
+  {
+    "code": "M1740",
+    "questionText": "Cognitive, Behavioral, and Psychiatric Symptoms that are demonstrated at least once a week (Reported or Observed)",
+    "sectionDescription": "Behavior",
+    "section": "Section E",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Memory deficit: failure to recognize familiar persons/places, inability to recall events of past 24 hours, significant memory loss so that supervision is required",
+        "value": false
+      },
+      {
+        "text": "2. Impaired decision-making: failure to perform usual ADLs or IADLs, inability to appropriately stop activities, jeopardizes safety through actions",
+        "value": false
+      },
+      {
+        "text": "3. Verbal disruption: yelling, threatening, excessive profanity, sexual references, etc.",
+        "value": false
+      },
+      {
+        "text": "4. Physical aggression: aggressive or combative to self and others (for example, hits self, throws objects, punches, dangerous maneuvers with wheelchair or other objects)",
+        "value": false
+      },
+      {
+        "text": "5. Disruptive, infantile, or socially inappropriate behavior (excludes verbal actions)",
+        "value": false
+      },
+      {
+        "text": "6. Delusional, hallucinatory, or paranoid behavior",
+        "value": false
+      },
+      {
+        "text": "7. None of the above behaviors demonstrated",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 10,
+    "answerPageOrder": 1,
+    "characterLimit": 2
+  },
+  {
+    "code": "M1745",
+    "questionText": "Frequency of Disruptive Behavior Symptoms (Reported or Observed):",
+    "questionSubtext": "Any physical, verbal, or other disruptive/dangerous symptoms that are injurious to self or others or jeopardize personal safety",
+    "sectionDescription": "Behavior",
+    "section": "Section E",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Never",
+        "value": "0"
+      },
+      {
+        "text": "1. Less than once a month",
+        "value": "1"
+      },
+      {
+        "text": "2. Once a month",
+        "value": "2"
+      },
+      {
+        "text": "3. Several times each month",
+        "value": "3"
+      },
+      {
+        "text": "4. Several times a week",
+        "value": "4"
+      },
+      {
+        "text": "5. At least daily",
+        "value": "5"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 10,
+    "answerPageOrder": 2,
+    "characterLimit": 2
+  },
+
+  {
+    "code": "M1100A",
+    "questionText": "A. Patient lives alone",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "checkboxgroup",
+    "options": [
+      {
+        "text": "Around the Clock",
+        "value": "01"
+      },
+      {
+        "text": "Regular Daytime",
+        "value": "02"
+      },
+      {
+        "text": "Regular Nighttime",
+        "value": "03"
+      },
+      {
+        "text": "Occasional/Short-Term Assistance",
+        "value": "04"
+      },
+      {
+        "text": "No Assistance Available",
+        "value": "05"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 10,
+    "answerPageOrder": 3
+  },
+  {
+    "code": "M1100B",
+    "questionText": "B. Patient lives with other person(s) in the home",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "checkboxgroup",
+    "options": [
+      {
+        "text": "Around the Clock",
+        "value": "06"
+      },
+      {
+        "text": "Regular Daytime",
+        "value": "07"
+      },
+      {
+        "text": "Regular Nighttime",
+        "value": "08"
+      },
+      {
+        "text": "Occasional/Short-Term Assistance",
+        "value": "09"
+      },
+      {
+        "text": "No Assistance Available",
+        "value": "10"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 10,
+    "answerPageOrder": 3
+  },
+  {
+    "code": "M1100C",
+    "questionText": "C. Patient lives in congregate situation (for example, assisted living, residential care home)",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "checkboxgroup",
+    "options": [
+      {
+        "text": "Around the Clock",
+        "value": "11"
+      },
+      {
+        "text": "Regular Daytime",
+        "value": "12"
+      },
+      {
+        "text": "Regular Nighttime",
+        "value": "13"
+      },
+      {
+        "text": "Occasional/Short-Term Assistance",
+        "value": "14"
+      },
+      {
+        "text": "No Assistance Available",
+        "value": "15"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 10,
+    "answerPageOrder": 3
+  },
+
+  {
+    "code": "M2102-1",
+    "questionText": "Types and Sources of Assistance",
+    "questionSubtext": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff\n\nf. Supervision and safety (due to cognitive impairment)",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No assistance needed – patient is independent or does not have needs in this area",
+        "value": "0"
+      },
+      {
+        "text": "1. Non-agency caregiver(s) currently provide assistance",
+        "value": "1"
+      },
+      {
+        "text": "2. Non-agency caregiver(s) need training/supportive services to provide assistance",
+        "value": "2"
+      },
+      {
+        "text": "3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide assistance",
+        "value": "3"
+      },
+      {
+        "text": "4. Assistance needed, but no non-agency caregiver(s) available",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 1,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M2102-2A",
+    "questionText": "a. ADL assistance (for example, transfer/ambulation, bathing, dressing, toileting, eating/feeding)",
+    "questionSubtext": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No assistance needed – patient is independent or does not have needs in this area",
+        "value": "0"
+      },
+      {
+        "text": "1. Non-agency caregiver(s) currently provide assistance",
+        "value": "1"
+      },
+      {
+        "text": "2. Non-agency caregiver(s) need training/supportive services to provide assistance",
+        "value": "2"
+      },
+      {
+        "text": "3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide assistance",
+        "value": "3"
+      },
+      {
+        "text": "4. Assistance needed, but no non-agency caregiver(s) available",
+        "value": "4"
+      }
+    ],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 2,
+    "helperText": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff"
+  },
+  {
+    "code": "M2102-2C",
+    "questionText": "c. Medication administration (for example, oral, inhaled, or injectable)",
+    "questionSubtext": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No assistance needed – patient is independent or does not have needs in this area",
+        "value": "0"
+      },
+      {
+        "text": "1. Non-agency caregiver(s) currently provide assistance",
+        "value": "1"
+      },
+      {
+        "text": "2. Non-agency caregiver(s) need training/supportive services to provide assistance",
+        "value": "2"
+      },
+      {
+        "text": "3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide assistance",
+        "value": "3"
+      },
+      {
+        "text": "4. Assistance needed, but no non-agency caregiver(s) available",
+        "value": "4"
+      }
+    ],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 2,
+    "helperText": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff"
+  },
+  {
+    "code": "M2102-2D",
+    "questionText": "d. Medical procedures/treatments (for example, changing wound dressing, home exercise program)",
+    "questionSubtext": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No assistance needed – patient is independent or does not have needs in this area",
+        "value": "0"
+      },
+      {
+        "text": "1. Non-agency caregiver(s) currently provide assistance",
+        "value": "1"
+      },
+      {
+        "text": "2. Non-agency caregiver(s) need training/supportive services to provide assistance",
+        "value": "2"
+      },
+      {
+        "text": "3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide assistance",
+        "value": "3"
+      },
+      {
+        "text": "4. Assistance needed, but no non-agency caregiver(s) available",
+        "value": "4"
+      }
+    ],
+    "questionOrder": 3,
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 2,
+    "helperText": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff"
+  },
+  {
+    "code": "M2102-2F",
+    "questionText": "f. Supervision and safety (due to cognitive impairment)",
+    "questionSubtext": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff",
+    "sectionDescription": "Preferences for Customary Routine Activities",
+    "section": "Section F",
+    "type": "codeinput",
+    "characterLimit": 1,
+    "options": [
+      {
+        "text": "0. No assistance needed – patient is independent or does not have needs in this area",
+        "value": "0"
+      },
+      {
+        "text": "1. Non-agency caregiver(s) currently provide assistance",
+        "value": "1"
+      },
+      {
+        "text": "2. Non-agency caregiver(s) need training/supportive services to provide assistance",
+        "value": "2"
+      },
+      {
+        "text": "3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide assistance",
+        "value": "3"
+      },
+      {
+        "text": "4. Assistance needed, but no non-agency caregiver(s) available",
+        "value": "4"
+      }
+    ],
+    "questionOrder": 4,
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 2,
+    "helperText": "Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff"
+  },
+  {
+    "code": "M1800",
+    "questionText": "Grooming",
+    "questionSubtext": "Current ability to tend safely to personal hygiene needs (specifically: washing face and hands, hair care, shaving or make up, teeth or denture care, or fingernail care).",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to groom self unaided, with or without the use of assistive devices or adapted methods.",
+        "value": "0"
+      },
+      {
+        "text": "1. Grooming utensils must be placed within reach before able to complete grooming activities.",
+        "value": "1"
+      },
+      {
+        "text": "2. Someone must assist the patient to groom self.",
+        "value": "2"
+      },
+      {
+        "text": "3. Patient depends entirely upon someone else for grooming needs.",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 11,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1810",
+    "questionText": "Current Ability to Dress Upper Body safely (with or without dressing aids) including undergarments, pullovers, frontopening shirts and blouses, managing zippers, buttons, and snaps.",
+    "questionSubtext": "",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to get clothes out of closets and drawers, put them on and remove them from the upper body without assistance.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to dress upper body without assistance if clothing is laid out or handed to the patient.",
+        "value": "1"
+      },
+      {
+        "text": "2. Someone must help the patient put on upper body clothing.",
+        "value": "2"
+      },
+      {
+        "text": "3. Patient depends entirely upon another person to dress the upper body.",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 12,
+    "answerPageOrder": 1,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1820",
+    "questionText": "Current Ability to Dress Lower Body safely (with or without dressing aids) including undergarments, slacks, socks or nylons, shoes",
+    "questionSubtext": "",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to obtain, put on, and remove clothing and shoes without assistance.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to dress lower body without assistance if clothing and shoes are laid out or handed to the patient.",
+        "value": "1"
+      },
+      {
+        "text": "2. Someone must help the patient put on undergarments, slacks, socks or nylons, and shoes.",
+        "value": "2"
+      },
+      {
+        "text": "3. Patient depends entirely upon another person to dress lower body.",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 12,
+    "answerPageOrder": 2,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1830",
+    "questionText": "Bathing",
+    "questionSubtext": "Current ability to wash entire body safely. Excludes grooming (washing face, washing hands, and shampooing hair).",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to bathe self in shower or tub independently, including getting in and out of tub/shower.",
+        "value": "0"
+      },
+      {
+        "text": "1. With the use of devices, is able to bathe self in shower or tub independently, including getting in and out of the tub/shower.",
+        "value": "1"
+      },
+      {
+        "text": "2. Able to bathe in shower or tub with the intermittent assistance of another person: \na. for intermittent supervision or encouragement or reminders, OR\nb. to get in and out of the shower or tub, OR\nc. for washing difficult to reach areas.",
+        "value": "2"
+      },
+      {
+        "text": "3. Able to participate in bathing self in shower or tub, but requires presence of another person throughout the bath for assistance or supervision.",
+        "value": "3"
+      },
+      {
+        "text": "4. Unable to use the shower or tub, but able to bathe self independently with or without the use of devices at the sink, in chair, or on commode.",
+        "value": "4"
+      },
+      {
+        "text": "5. Unable to use the shower or tub, but able to participate in bathing self in bed, at the sink, in bedside chair, or on commode, with the assistance or supervision of another person.",
+        "value": "5"
+      },
+      {
+        "text": "6. Unable to participate effectively in bathing and is bathed totally by another person.",
+        "value": "6"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 12,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1840",
+    "questionText": "Toilet Transferring",
+    "questionSubtext": "Current ability to get to and from the toilet or bedside commode safely and transfer on and off toilet/commode.",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to get to and from the toilet and transfer independently with or without a device.",
+        "value": "0"
+      },
+      {
+        "text": "1. When reminded, assisted, or supervised by another person, able to get to and from the toilet and transfer.",
+        "value": "1"
+      },
+      {
+        "text": "2. Unable to get to and from the toilet but is able to use a bedside commode (with or without assistance).",
+        "value": "2"
+      },
+      {
+        "text": "3. Unable to get to and from the toilet or bedside commode but is able to use a bedpan/urinal independently.",
+        "value": "3"
+      },
+      {
+        "text": "4. Is totally dependent in toileting.",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 12,
+    "answerPageOrder": 3,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1845",
+    "questionText": "Toileting Hygiene",
+    "questionSubtext": "Current ability to maintain perineal hygiene safely, adjust clothes and/or incontinence pads before and after using toilet, commode, bedpan, urinal. If managing ostomy, includes cleaning area around stoma, but not managing equipment.",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to manage toileting hygiene and clothing management without assistance.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to manage toileting hygiene and clothing management without assistance if supplies/implements are laid out for the patient.",
+        "value": "1"
+      },
+      {
+        "text": "2. Someone must help the patient to maintain toileting hygiene and/or adjust clothing.",
+        "value": "2"
+      },
+      {
+        "text": "3. Patient depends entirely upon another person to maintain toileting hygiene.",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 12,
+    "answerPageOrder": 5,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1850",
+    "questionText": "Transferring",
+    "questionSubtext": "Current ability to move safely from bed to chair, or ability to turn and position self in bed if patient is bedfast.",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to independently transfer.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to transfer with minimal human assistance or with use of an assistive device.",
+        "value": "1"
+      },
+      {
+        "text": "2. Able to bear weight and pivot during the transfer process but unable to transfer self.",
+        "value": "2"
+      },
+      {
+        "text": "3. Unable to transfer self and is unable to bear weight or pivot when transferred by another person.",
+        "value": "3"
+      },
+      {
+        "text": "4. Bedfast, unable to transfer but is able to turn and position self in bed.",
+        "value": "4"
+      },
+      {
+        "text": "5. Bedfast, unable to transfer and is unable to turn and position self.",
+        "value": "5"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 1,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "M1860",
+    "questionText": "Ambulation/Locomotion",
+    "questionSubtext": "Current ability to walk safely, once in a standing position, or use a wheelchair, once in a seated position, on a variety of surfaces.",
+    "sectionDescription": "Functional Status",
+    "section": "Section G",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to independently walk on even and uneven surfaces and negotiate stairs with or without railings (specifically: needs no human assistance or assistive device).",
+        "value": "0"
+      },
+      {
+        "text": "1. With the use of a one-handed device (for example, cane, single crutch, hemi-walker), able to independently walk on even and uneven surfaces and negotiate stairs with or without railings.",
+        "value": "1"
+      },
+      {
+        "text": "2. Requires use of a two-handed device (for example, walker or crutches) to walk alone on a level surface and/or requires human supervision or assistance to negotiate stairs or steps or uneven surfaces.",
+        "value": "2"
+      },
+      {
+        "text": "3. Able to walk only with the supervision or assistance of another person at all times.",
+        "value": "3"
+      },
+      {
+        "text": "4. Chairfast, unable to ambulate but is able to wheel self independently.",
+        "value": "4"
+      },
+      {
+        "text": "5. Chairfast, unable to ambulate and is unable to wheel self.",
+        "value": "5"
+      },
+      {
+        "text": "6. Bedfast, unable to ambulate or be up in a chair.",
+        "value": "6"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 2,
+    "characterLimit": 1,
+    "skipToQuestion": [],
+    "helperText": ""
+  },
+  {
+    "code": "GG0100A",
+    "questionText": "A. Self Care: Code the patient’s need for assistance with bathing, dressing, using the toilet, and eating prior to the current illness, exacerbation, or injury",
+    "questionSubtext": "Indicate the patient’s usual ability with everyday activities prior to the current illness, exacerbation, or injury",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 3,
+    "helperText": "",
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "3. Independent – Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper.",
+        "2. Needed Some Help – Patient needed partial assistance from another person to complete any activities.",
+        "1. Dependent – A helper completed all the activities for the patient.",
+        "8. Unknown",
+        "9. Not Applicable"
+      ]
+    }
+  },
+  {
+    "code": "GG0100B",
+    "questionText": "B. Indoor Mobility (Ambulation): Code the patient’s need for assistance with walking from room to room (with or without a device such as cane, crutch or walker) prior to the current illness, exacerbation, or injury.",
+    "questionSubtext": "Indicate the patient’s usual ability with everyday activities prior to the current illness, exacerbation, or injury",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 2,
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 3,
+    "helperText": "",
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "3. Independent – Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper.",
+        "2. Needed Some Help – Patient needed partial assistance from another person to complete any activities.",
+        "1. Dependent – A helper completed all the activities for the patient.",
+        "8. Unknown",
+        "9. Not Applicable"
+      ]
+    }
+  },
+  {
+    "code": "GG0100C",
+    "questionText": "C. Stairs: Code the patient’s need for assistance with internal or external stairs (with or without a device such as cane, crutch, or walker) prior to the current illness, exacerbation, or injury.",
+    "questionSubtext": "Indicate the patient’s usual ability with everyday activities prior to the current illness, exacerbation, or injury",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 3,
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 3,
+    "helperText": "",
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "3. Independent – Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper.",
+        "2. Needed Some Help – Patient needed partial assistance from another person to complete any activities.",
+        "1. Dependent – A helper completed all the activities for the patient.",
+        "8. Unknown",
+        "9. Not Applicable"
+      ]
+    }
+  },
+  {
+    "code": "GG0100D",
+    "questionText": "D. Functional Cognition: Code the patient’s need for assistance with planning regular tasks, such as shopping or remembering to take medication prior to the current illness, exacerbation, or injury.",
+    "questionSubtext": "Indicate the patient’s usual ability with everyday activities prior to the current illness, exacerbation, or injury",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 4,
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 3,
+    "helperText": "",
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [
+        "3. Independent – Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper.",
+        "2. Needed Some Help – Patient needed partial assistance from another person to complete any activities.",
+        "1. Dependent – A helper completed all the activities for the patient.",
+        "8. Unknown",
+        "9. Not Applicable"
+      ]
+    }
+  },
+  {
+    "code": "GG0110",
+    "questionText": "Prior Device Use",
+    "questionSubtext": "Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury.",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A. Manual wheelchair",
+        "value": false
+      },
+      {
+        "text": "B. Motorized wheelchair and/or scooter",
+        "value": false
+      },
+      {
+        "text": "C. Mechanical lift",
+        "value": false
+      },
+      {
+        "text": "D. Walker",
+        "value": false
+      },
+      {
+        "text": "E. Orthotics/Prosthetics",
+        "value": false
+      },
+      {
+        "text": "Z. None of the above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 13,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "M1600",
+    "questionText": "Has this patient been treated for a Urinary Tract Infection in the past 14 days?",
+    "questionSubtext": "",
+    "sectionDescription": "Bladder and Bowel",
+    "section": "Section H",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      },
+      {
+        "text": "NA Patient on prophylactic treatment",
+        "value": "NA"
+      },
+      {
+        "text": "UK Unknown [Omit “UK” option on DC]",
+        "value": "UK"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 20,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "M1610",
+    "questionText": "Urinary Incontinence or Urinary Catheter Presence",
+    "questionSubtext": "",
+    "sectionDescription": "Bladder and Bowel",
+    "section": "Section H",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": " 0. No incontinence or catheter (includes anuria or ostomy for urinary drainage)",
+        "value": "0"
+      },
+      {
+        "text": "1. Patient is incontinent",
+        "value": "1"
+      },
+      {
+        "text": "2. Patient requires a urinary catheter (specifically: external, indwelling, intermittent, or suprapubic)",
+        "value": "2"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 20,
+    "answerPageOrder": 2,
+    "characterLimit": null
+  },
+  {
+    "code": "M1620",
+    "questionText": "Bowel Incontinence Frequency",
+    "questionSubtext": "",
+    "sectionDescription": "Bladder and Bowel",
+    "section": "Section H",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Very rarely or never has bowel incontinence",
+        "value": "0"
+      },
+      {
+        "text": "1. Less than once weekly",
+        "value": "1"
+      },
+      {
+        "text": "2. One to three times weekly",
+        "value": "2"
+      },
+      {
+        "text": "3. Four to six times weekly",
+        "value": "3"
+      },
+      {
+        "text": "4. On a daily basis",
+        "value": "4"
+      },
+      {
+        "text": "5. More often than once daily",
+        "value": "5"
+      },
+      {
+        "text": "NA Patient has ostomy for bowel elimination",
+        "value": "NA"
+      },
+      {
+        "text": "UK Unknown [Omit “UK” option on DC]",
+        "value": "UK"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 20,
+    "answerPageOrder": 3,
+    "characterLimit": null
+  },
+  {
+    "code": "M1630",
+    "questionText": "Ostomy for Bowel Elimination",
+    "questionSubtext": "Does this patient have an ostomy for bowel elimination that (within the last 14 days): a) was related to an inpatient facility stay; or b) necessitated a change in medical or treatment regimen?",
+    "sectionDescription": "Bladder and Bowel",
+    "section": "Section H",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": " 0. Patient does not have an ostomy for bowel elimination.",
+        "value": "0"
+      },
+      {
+        "text": "1. Patient's ostomy was not related to an inpatient stay and did not necessitate change in medical or treatment regimen.",
+        "value": "1"
+      },
+      {
+        "text": "2. The ostomy was related to an inpatient stay or did necessitate change in medical or treatment regimen.",
+        "value": "2"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 20,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "M1021",
+    "questionText": "Primary Diagnosis & M1023. Other Diagnoses",
+    "questionSubtext": "",
+    "sectionDescription": "Active Diagnoses",
+    "section": "Section I",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 20,
+    "answerPageOrder": 5,
+    "characterLimit": null,
+    "questionTable": {
+      "headers": {
+        "columns": [
+          "Diagnoses (Sequencing of diagnoses should reflect the seriousness of each condition and support the disciplines and services provided)",
+          "CD-10-CM and symptom control rating for each condition. Note that the sequencing of these ratings may not match the sequencing of the diagnoses"
+        ]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "a."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "a."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "b."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "b."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "c."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "c."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "d."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "d."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "e."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "e."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "diagnosis",
+              "type": "input",
+              "columnText": "f."
+            },
+            {
+              "columnName": "icd10",
+              "type": "input",
+              "columnText": "f."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "M1028",
+    "questionText": "Active Diagnoses – Comorbidities and Co-existing Conditions",
+    "questionSubtext": "",
+    "sectionDescription": "Active Diagnoses",
+    "section": "Section I",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Peripheral Vascular Disease (PVD) or Peripheral Arterial Disease (PAD)",
+        "value": false
+      },
+      {
+        "text": "2. Diabetes Mellitus (DM)",
+        "value": false
+      },
+      {
+        "text": "3. None of the above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 21,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "M1033",
+    "questionText": "Risk for Hospitalization",
+    "questionSubtext": "Which of the following signs or symptoms characterize this patient as at risk for hospitalization?",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. History of falls (2 or more falls – or any fall with an injury – in the past 12 months)",
+        "value": false
+      },
+      {
+        "text": "2. Unintentional weight loss of a total of 10 pounds or more in the past 12 months",
+        "value": false
+      },
+      {
+        "text": "3. Multiple hospitalizations (2 or more) in the past 6 months",
+        "value": false
+      },
+      {
+        "text": "4. Multiple emergency department visits (2 or more) in the past 6 months",
+        "value": false
+      },
+      {
+        "text": "5. Decline in mental, emotional, or behavioral status in the past 3 months",
+        "value": false
+      },
+      {
+        "text": "6. Reported or observed history of difficulty complying with any medical instructions (for example, medications,diet, exercise) in the past 3 months",
+        "value": false
+      },
+      {
+        "text": "7. Currently taking 5 or more medications",
+        "value": false
+      },
+      {
+        "text": "8. Currently reports exhaustion",
+        "value": false
+      },
+      {
+        "text": "9. Other risk(s) not listed in 1-8",
+        "value": false
+      },
+      {
+        "text": "10. None of the above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 21,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "guide": "Guide: Identify and select the patient signs/symptoms from the options, marking them as risks for hospitalization."
+  },
+  {
+    "code": "J0510",
+    "questionText": "Pain Effect on Sleep",
+    "questionSubtext": "Ask patient: Over the past 5 days, how much of the time has pain made it hard for you to sleep at night",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Does not apply – I have not had any pain or hurting in the past 5 days ➔ Skip to M1400, Short of Breath at SOC/ROC; Skip to J1800, Any Falls Since SOC/ROC at DC",
+        "value": "0"
+      },
+      {
+        "text": "1. Rarely or not at all",
+        "value": "1"
+      },
+      {
+        "text": "2. Occasionally",
+        "value": "2"
+      },
+      {
+        "text": "3. Frequently",
+        "value": "3"
+      },
+      {
+        "text": "4. Almost constantly",
+        "value": "4"
+      },
+      {
+        "text": "8. Unable to answer",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 21,
+    "answerPageOrder": 3,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "J0510",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1400",
+        "skipToText": "Skip to M1400, Short of Breath at SOC/ROC"
+      },
+      {
+        "field": "J0510",
+        "fieldValueForSkip": "0",
+        "skipToField": "J1800",
+        "skipToText": "Skip to J1800, Any Falls Since SOC/ROC at DC"
+      }
+    ],
+    "guide": "Guide: Query patient on frequency of sleep disruption due to pain in last 5 days. If no pain, skip to M1400 and J1800. Checkout offered options for possible answers."
+  },
+  {
+    "code": "J0520",
+    "questionText": "Pain Interference with Therapy Activities",
+    "questionSubtext": "Ask patient: Over the past 5 days, how often have you limited your participation in rehabilitation therapy sessions due to pain?",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Does not apply – I have not received rehabilitation therapy in the past 5 days",
+        "value": "0"
+      },
+      {
+        "text": "1. Rarely or not at all",
+        "value": "1"
+      },
+      {
+        "text": "2. Occasionally",
+        "value": "2"
+      },
+      {
+        "text": "3. Frequently",
+        "value": "3"
+      },
+      {
+        "text": "4. Almost constantly",
+        "value": "4"
+      },
+      {
+        "text": "8. Unable to answer",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 1,
+    "characterLimit": null,
+    "guide": "Summary: Gauge the frequency of the patient's pain interference with therapy activities over the last 5 days.\nInstruction: The AI should generate the answer based on the provided options ranging from not applicable to almost constantly."
+  },
+  {
+    "code": "J0530",
+    "questionText": "Pain Interference with Day-to-Day Activities",
+    "questionSubtext": "Ask patient: Over the past 5 days, how often you have limited your day-to-day activities (excluding rehabilitation therapy sessions) because of pain?",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Rarely or not at all",
+        "value": "1"
+      },
+      {
+        "text": "2. Occasionally",
+        "value": "2"
+      },
+      {
+        "text": "3. Frequently",
+        "value": "3"
+      },
+      {
+        "text": "4. Almost constantly",
+        "value": "4"
+      },
+      {
+        "text": "8. Unable to answer",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "guide": "Summarized Question: \"How often has pain limited your daily activities in the past 5 days?\" \nHow to Answer: Indicate the frequency at which pain disruptive to daily activities. Choices: 1-Rarely/Not at All, 2-Occasionally, 3-Frequently, 4-Almost Constantly, 8-Unable to answer."
+  },
+  {
+    "code": "J1800",
+    "questionText": "Any Falls Since SOC/ROC, whichever is more recent",
+    "questionSubtext": "Has the patient had any falls since SOC/ROC, whichever is more recent?",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No ➔ Skip to M1400, Short of Breath at DC; Skip to M2005, Medication Intervention at TRN and DAH",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes ➔Continue to J1900, Number of Falls Since SOC/ROC",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 3,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "J1800",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1400",
+        "skipToText": "Skip to M1400, Short of Breath at DC; Skip to M2005, Medication Intervention at TRN and DAH"
+      },
+      {
+        "field": "J1800",
+        "fieldValueForSkip": "1",
+        "skipToField": "M1400",
+        "skipToText": "Continue to J1900, Number of Falls Since SOC/ROC"
+      }
+    ],
+    "guide": "Guide: Ask if the patient has had any falls since SOC/ROC. 'No' leads to questions M1400/M2005. 'Yes' continues to J1900."
+  },
+  {
+    "code": "J1900A",
+    "questionText": "A. No injury: No evidence of any injury is noted on physical assessment by the nurse or primary care clinician; no complaints of pain or injury by the patient; no change in the patient's behavior is noted after the fall",
+    "questionSubtext": "",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 4,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": ["0. None", "1. One", "2. Two or more"]
+    }
+  },
+  {
+    "code": "J1900B",
+    "questionText": "B. Injury (except major): Skin tears, abrasions, lacerations, superficial bruises, hematomas, and sprains; or any fall-related injury that causes the patient to complain of pain",
+    "questionSubtext": "",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 4,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": ["0. None", "1. One", "2. Two or more"]
+    }
+  },
+  {
+    "code": "J1900C",
+    "questionText": "C. Major injury: Bone fractures, joint dislocations, closed head injuries with altered consciousness, subdural hematoma",
+    "questionSubtext": "",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "input",
+    "characterLimit": 1,
+    "options": [],
+    "questionOrder": 1,
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 4,
+    "scoringKey": {
+      "title": "Coding:",
+      "options": ["0. None", "1. One", "2. Two or more"]
+    }
+  },
+  {
+    "code": "M1400",
+    "questionText": "When is the patient dyspneic or noticeably Short of Breath?",
+    "questionSubtext": "",
+    "sectionDescription": "Health Conditions",
+    "section": "Section J",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Patient is not short of breath",
+        "value": "0"
+      },
+      {
+        "text": "1. When walking more than 20 feet, climbing stairs",
+        "value": "1"
+      },
+      {
+        "text": "2. With moderate exertion (for example, while dressing, using commode or bedpan, walking distances less than 20 feet)",
+        "value": "2"
+      },
+      {
+        "text": "3. With minimal exertion (for example, while eating, talking, or performing other ADLs) or with agitation",
+        "value": "3"
+      },
+      {
+        "text": "4. At rest (during day or night)",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 5,
+    "characterLimit": null,
+    "guide": "Guide: Determine and specify under what exertion conditions the patient experiences shortness of breath; none (0), walking more than 20 feet/climbing stairs (1), moderate exertion (2), minimal exertion (3), or at rest (4)."
+  },
+  {
+    "code": "M1060",
+    "questionText": "Height and Weight – While measuring, if the number is X.1-X.4 round down; X.5 or greater round up.",
+    "questionSubtext": "",
+    "sectionDescription": "Swallowing/Nutritional Status",
+    "section": "Section K",
+    "type": "composite",
+    "childQuestions": [
+      {
+        "type": "input",
+        "questionText": "A. Height (in inches). Record most recent height measure since the most recent SOC/ROC",
+        "characterLimit": 2,
+        "options": [],
+        "questionOrder": 1
+      },
+      {
+        "type": "input",
+        "questionText": "B. Weight (in pounds). Base weight on most recent measure in last 30 days; measure weight consistently, according to standard agency practice (for example, in a.m. after voiding, before meal, with shoes off, etc.)",
+        "characterLimit": 3,
+        "options": [],
+        "questionOrder": 1
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 23,
+    "answerPageOrder": 6,
+    "characterLimit": null,
+    "guide": "Guide: Round down measurements from X.1 to X.4, and round up for X.5+ when recording recent height and weight."
+  },
+  {
+    "code": "K0520-SOC/ROC",
+    "questionText": "Nutritional Approaches",
+    "questionSubtext": "",
+    "sectionDescription": "Swallowing/Nutritional Status",
+    "section": "Section K",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 24,
+    "answerPageOrder": 1,
+    "characterLimit": null,
+    "questionTable": {
+      "headers": {
+        "columns": [
+          "1. On Admission\nCheck all of the nutritional approaches that apply on admission",
+          "1. On Admission"
+        ]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Parenteral/IV feeding"
+            },
+            {
+              "columnName": "1. On Admission",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Feeding tube (e.g., nasogastric or abdominal (PEG))"
+            },
+            {
+              "columnName": "1. On Admission",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Mechanically altered diet – require change in texture of food or liquids (e.g., pureed food, thickened liquids)"
+            },
+            {
+              "columnName": "1. On Admission",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "D. Therapeutic diet (e.g., low salt, diabetic, low cholesterol)"
+            },
+            {
+              "columnName": "1. On Admission",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "Z. None of the above"
+            },
+            {
+              "columnName": "1. On Admission",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "K0520-Discharge",
+    "questionText": "Nutritional Approaches",
+    "questionSubtext": "",
+    "sectionDescription": "Swallowing/Nutritional Status",
+    "section": "Section K",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 24,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "questionTable": {
+      "headers": {
+        "columns": [
+          "4. Last 7 days Check all of the nutritional approaches that were received in the last 7 days\n5. At discharge Check all of the nutritional approaches that were being received at discharge",
+          "4. Last 7 days",
+          "5. At discharge"
+        ]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Parenteral/IV feeding"
+            },
+            {
+              "columnName": "4. Last 7 days",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "5. At Discharge",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Feeding tube (e.g., nasogastric or abdominal (PEG))"
+            },
+            {
+              "columnName": "4. Last 7 days",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "5. At Discharge",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Mechanically altered diet – require change in texture of food or liquids (e.g., pureed food, thickened liquids)"
+            },
+            {
+              "columnName": "4. Last 7 days",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "5. At Discharge",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "D. Therapeutic diet (e.g., low salt, diabetic, low cholesterol)"
+            },
+            {
+              "columnName": "4. Last 7 days",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "5. At Discharge",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "Z. None of the above"
+            },
+            {
+              "columnName": "4. Last 7 days",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "5. At Discharge",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "M1870",
+    "questionText": "Feeding or Eating",
+    "questionSubtext": "Current ability to feed self meals and snacks safely. Note: This refers only to the process of eating, chewing, and swallowing, not preparing the food to be eaten.",
+    "sectionDescription": "Swallowing/Nutritional Status",
+    "section": "Section K",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to independently feed self.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to feed self independently but requires:\n\ta. meal set-up; OR\n\tb. intermittent assistance or supervision from another person; OR\n\tc. a liquid, pureed, or ground meat diet.",
+        "value": "1"
+      },
+      {
+        "text": "2. Unable to feed self and must be assisted or supervised throughout the meal/snack.",
+        "value": "2"
+      },
+      {
+        "text": "3. Able to take in nutrients orally and receives supplemental nutrients through a nasogastric tube or gastrostomy.",
+        "value": "3"
+      },
+      {
+        "text": "4. Unable to take in nutrients orally and is fed nutrients through a nasogastric tube or gastrostomy.",
+        "value": "4"
+      },
+      {
+        "text": "5. Unable to take in nutrients orally or by tube feeding.",
+        "value": "5"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 24,
+    "answerPageOrder": 3,
+    "characterLimit": null
+  },
+  {
+    "code": "M1306",
+    "questionText": "Does this patient have at least one Unhealed Pressure Ulcer/Injury at Stage 2 or Higher or designated as Unstageable? (Excludes Stage 1 pressure injuries and all healed pressure ulcers/injuries)",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No ➔ Skip to M1322, Current Number of Stage 1 Pressure Injuries at SOC/ROC; Skip to M1324, Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable at DC",
+        "value": ""
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 24,
+    "answerPageOrder": 4,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M1306",
+        "fieldValueForSkip": "01",
+        "skipToField": "M1322",
+        "skipToText": "Skip to M1322, Current Number of Stage 1 Pressure Injuries at SOC/ROC"
+      },
+      {
+        "field": "M1306",
+        "fieldValueForSkip": "01",
+        "skipToField": "M1324",
+        "skipToText": "Skip to M1324, Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable at DC"
+      }
+    ]
+  },
+  {
+    "code": "M1307",
+    "questionText": "The Oldest Stage 2 Pressure Ulcer that is present at discharge: (Excludes healed Stage 2 pressure ulcers)",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Was present at the most recent SOC/ROC assessment",
+        "value": "1"
+      },
+      {
+        "text": "2. Developed since the most recent SOC/ROC assessment. Record date pressure ulcer first identified:",
+        "addtionalInput": "date",
+        "value": "2"
+      },
+      {
+        "text": "NA No Stage 2 pressure ulcers are present at discharge",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 24,
+    "answerPageOrder": 5,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M1306",
+        "fieldValueForSkip": "01",
+        "skipToField": "M1322",
+        "skipToText": "Skip to M1322, Current Number of Stage 1 Pressure Injuries at SOC/ROC"
+      },
+      {
+        "field": "M1306",
+        "fieldValueForSkip": "01",
+        "skipToField": "M1324",
+        "skipToText": "Skip to M1324, Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable at DC"
+      }
+    ]
+  },
+
+  {
+    "code": "M1311-1A",
+    "questionText": "A1. Stage 2: Partial thickness loss of dermis presenting as a shallow open ulcer with a red or pink wound bed, without slough. May also present as an intact or open/ruptured blister. Number of Stage 2 pressure ulcers",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+  {
+    "code": "M1311-1B",
+    "questionText": "B1. Stage 3: Full thickness tissue loss. Subcutaneous fat may be visible but bone, tendon, or muscle is not exposed. Slough may be present but does not obscure the depth of tissue loss. May include undermining and tunneling. Number of Stage 3 pressure ulcers",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+  {
+    "code": "M1311-1C",
+    "questionText": "C1. Stage 4: Full thickness tissue loss with exposed bone, tendon, or muscle. Slough or eschar may be present on some parts of the wound bed. Often includes undermining and tunneling. Number of Stage 4 pressure ulcers",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+  {
+    "code": "M1311-1D",
+    "questionText": "D1. Unstageable: Non-removable dressing/device: Known but not stageable due to non-removable dressing/device Number of unstageable pressure ulcers/injuries due to non-removable dressing/device",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+  {
+    "code": "M1311-1E",
+    "questionText": "E1. Unstageable: Slough and/or eschar: Known but not stageable due to coverage of wound bed by slough and/or eschar Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+  {
+    "code": "M1311-1F",
+    "questionText": "F1. Unstageable: Deep tissue injury Number of unstageable pressure injuries presenting as deep tissue injury",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 1
+  },
+
+  {
+    "code": "M1311-2A1",
+    "questionText": "A1. Stage 2: Partial thickness loss of dermis presenting as a shallow open ulcer with a red or pink wound bed, without slough. May also present as an intact or open/ruptured blister. Number of Stage 2 pressure ulcers – If 0 ➔Skip to M1311B1, Stage 3",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1311B1",
+        "skipToText": "Skip to M1311B1, Stage 3"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2A2",
+    "questionText": "A2. Number of these Stage 2 pressure ulcers that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2B1",
+    "questionText": "B1. Stage 3: Full thickness tissue loss. Subcutaneous fat may be visible but bone, tendon, or muscle is not exposed. Slough may be present but does not obscure the depth of tissue loss. May include undermining and tunneling. Number of Stage 3 pressure ulcers – If 0 ➔Skip to M1311C1, Stage 4",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1311C1",
+        "skipToText": "Skip to M1311C1, Stage 4"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2B2",
+    "questionText": "B2. Number of these Stage 3 pressure ulcers that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2C1",
+    "questionText": "C1. Stage 4: Full thickness tissue loss with exposed bone, tendon, or muscle. Slough or eschar may be present on some parts of the wound bed. Often includes undermining and tunneling. Number of Stage 4 pressure ulcers – If 0 ➔Skip to M1311D1, Unstageable: Non-removable dressing/device",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1311D1",
+        "skipToText": "Skip to M1311D1, Unstageable: Non-removable dressing/device"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2C2",
+    "questionText": "C2. Number of these Stage 4 pressure ulcers that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2D1",
+    "questionText": "D1. Unstageable: Non-removable dressing/device: Known but not stageable due to non-removable dressing/device Number of unstageable pressure ulcers/injuries due to non-removable dressing/device – If 0 ➔Skip to M1311E1, Unstageable: Slough and/or eschar",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1311E1",
+        "skipToText": "Skip to M1311E1, Unstageable: Slough and/or eschar"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2D2",
+    "questionText": "D2. Number of these unstageable pressure ulcers/injuries that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2E1",
+    "questionText": "E1. Unstageable: Slough and/or eschar: Known but not stageable due to coverage of wound bed by slough and/or eschar Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar – If 0 ➔Skip to M1311F1, Unstageable: Deep tissue injury",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1311F1",
+        "skipToText": "Skip to M1311F1, Unstageable: Deep tissue injury"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2E2",
+    "questionText": "E2. Number of these unstageable pressure ulcers that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2F1",
+    "questionText": "F1. Unstageable: Deep tissue injury Number of unstageable pressure injuries presenting as deep tissue injury – If 0 ➔Skip to M1324, Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "skipToQuestion": [
+      {
+        "field": "",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1324",
+        "skipToText": "Skip to M1324, Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable"
+      }
+    ],
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+  {
+    "code": "M1311-2F2",
+    "questionText": "F2. Number of these unstageable pressure injuries that were present at most recent SOC/ROC – enter how many were noted at the time of most recent SOC/ROC",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "input",
+    "characterLimit": null,
+    "questionOrder": 1,
+    "options": [],
+    "answer": "",
+    "pageNumber": 25,
+    "answerPageOrder": 2
+  },
+
+  {
+    "code": "M1322",
+    "questionText": "Current Number of Stage 1 Pressure Injuries",
+    "questionSubtext": "Intact skin with non-blanchable redness of a localized area usually over a bony prominence. Darkly pigmented skin may not have a visible blanching; in dark skin tones only, it may appear with persistent blue or purple hues.",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0",
+        "value": "0"
+      },
+      {
+        "text": "1",
+        "value": "1"
+      },
+      {
+        "text": "2",
+        "value": "2"
+      },
+      {
+        "text": "3",
+        "value": "3"
+      },
+      {
+        "text": "4 or more",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "M1324",
+    "questionText": "Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable",
+    "questionSubtext": "Excludes pressure ulcer/injury that cannot be staged due to a non-removable dressing/device, coverage of wound bed by slough and/or eschar, or deep tissue injury.",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Stage 1",
+        "value": "1"
+      },
+      {
+        "text": "2. Stage 2",
+        "value": "2"
+      },
+      {
+        "text": "3. Stage 3",
+        "value": "3"
+      },
+      {
+        "text": "4. Stage 4",
+        "value": "4"
+      },
+      {
+        "text": "NA Patient has no pressure ulcers/injuries or no stageable pressure ulcers/injuries",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 2,
+    "characterLimit": null
+  },
+  {
+    "code": "M1330",
+    "questionText": "Does this patient have a Stasis Ulcer?",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No ➔Skip to M1340, Surgical Wound",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes, patient has BOTH observable and unobservable stasis ulcers",
+        "value": "1"
+      },
+      {
+        "text": "2. Yes, patient has observable stasis ulcers ONLY",
+        "value": "2"
+      },
+      {
+        "text": "3. Yes, patient has unobservable stasis ulcers ONLY (known but not observable due to non-removable dressing/device) ➔ Skip to M1340, Surgical Wound",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 3,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M1330",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1340",
+        "skipToText": "Skip to M1340, Surgical Wound"
+      },
+      {
+        "field": "M1330",
+        "fieldValueForSkip": "3",
+        "skipToField": "M1340",
+        "skipToText": "Skip to M1340, Surgical Wound "
+      }
+    ]
+  },
+  {
+    "code": "M1332",
+    "questionText": "Current Number of Stasis Ulcer(s) that are Observable",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. One",
+        "value": "1"
+      },
+      {
+        "text": "2. Two",
+        "value": "2"
+      },
+      {
+        "text": "3. Three",
+        "value": "3"
+      },
+      {
+        "text": "4. Four or more",
+        "value": "4"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "M1334",
+    "questionText": "Status of Most Problematic Stasis Ulcer that is Observable",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "1. Fully granulating",
+        "value": "1"
+      },
+      {
+        "text": "2. Early/partial granulation",
+        "value": "2"
+      },
+      {
+        "text": "3. Not healing",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 5,
+    "characterLimit": null
+  },
+  {
+    "code": "M1340",
+    "questionText": "Does this patient have a Surgical Wound?",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No ➔Skip to N0415, High-Risk Drug Classes: Use and Indication",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes, patient has at least one observable surgical wound",
+        "value": "1"
+      },
+      {
+        "text": "2. Surgical wound known but not observable due to non-removable dressing/device ➔ Skip to N0415, High-Risk Drug Classes: Use and Indication",
+        "value": "2"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 6,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M1340",
+        "fieldValueForSkip": "2",
+        "skipToField": "M1340",
+        "skipToText": "Skip to N0415, High-Risk Drug Classes: Use and Indication"
+      },
+      {
+        "field": "M1340",
+        "fieldValueForSkip": "0",
+        "skipToField": "M1340",
+        "skipToText": "Skip to N0415, High-Risk Drug Classes: Use and Indication"
+      }
+    ]
+  },
+  {
+    "code": "M1342",
+    "questionText": "Status of Most Problematic Surgical Wound that is Observable",
+    "questionSubtext": "",
+    "sectionDescription": "Skin Conditions",
+    "section": "Section M",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Newly epithelialized",
+        "value": "0"
+      },
+      {
+        "text": "1. Fully granulating",
+        "value": "1"
+      },
+      {
+        "text": "2. Early/partial granulation",
+        "value": "2"
+      },
+      {
+        "text": "3. Not healing",
+        "value": "3"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 26,
+    "answerPageOrder": 7,
+    "characterLimit": null
+  },
+  {
+    "code": "N0415-SOC/ROC-and-Discharge",
+    "questionText": "High-Risk Drug Classes: Use and Indication",
+    "questionSubtext": "",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 27,
+    "answerPageOrder": 1,
+    "characterLimit": null,
+    "questionTable": {
+      "headers": {
+        "columns": [
+          "1. Is taking Check if the patient is taking any medications by pharmacological  classification, not how it is used, in the following classes\n\n 2. Indication noted If Column 1 is checked, check if there is an indication noted for all  medications in the drug class",
+          "1. Is Taking",
+          "2. Indication Noted"
+        ]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Antipsychotic"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "E. Anticoagulant"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "F. Antibiotic"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "H. Opioid"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "I. Antiplatelet"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "J. Hypoglycemic (including insulin)"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "checkbox",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "Z. None of the Above"
+            },
+            {
+              "columnName": "1. Is Taking",
+              "type": "checkbox",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Indication Noted",
+              "type": "label",
+              "columnText": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "M2001",
+    "questionText": "Drug Regimen Review",
+    "questionSubtext": "Did a complete drug regimen review identify potential clinically significant medication issues?",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No – No issues found during review ➔ Skip to M2010, Patient/Caregiver High-Risk Drug Education",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes – Issues found during review ",
+        "value": "1"
+      },
+      {
+        "text": "9. NA – Patient is not taking any medications ➔ Skip to O0110, Special Treatments, Procedures, and Programs",
+        "value": "9"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 27,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M2001",
+        "fieldValueForSkip": "9",
+        "skipToField": "O0110",
+        "skipToText": "Skip to O0110, Special Treatments, Procedures, and Programs"
+      },
+      {
+        "field": "M2001",
+        "fieldValueForSkip": "0",
+        "skipToField": "M2010",
+        "skipToText": "Skip to M2010, Patient/Caregiver High-Risk Drug Education"
+      }
+    ]
+  },
+  {
+    "code": "M2003",
+    "questionText": "Medication Follow-up",
+    "questionSubtext": "Did the agency contact a physician (or physician-designee) by midnight of the next calendar day and complete prescribed/recommended actions in response to the identified potential clinically significant medication issues?",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 27,
+    "answerPageOrder": 3,
+    "characterLimit": null
+  },
+  {
+    "code": "M2005",
+    "questionText": "Medication Intervention",
+    "questionSubtext": "Did the agency contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the SOC/ROC?",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      },
+      {
+        "text": "9. NA – There were no potential clinically significant medication issues identified since SOC/ROC or patient is not taking any medications",
+        "value": "9"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 27,
+    "answerPageOrder": 4,
+    "characterLimit": null
+  },
+  {
+    "code": "M2010",
+    "questionText": "Patient/Caregiver High-Risk Drug Education",
+    "questionSubtext": "Has the patient/caregiver received instruction on special precautions for all high-risk medications (such as hypoglycemics, anticoagulants, etc.) and how and when to report problems that may occur?",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes",
+        "value": "1"
+      },
+      {
+        "text": "NA Patient not taking any high-risk drugs OR patient/caregiver fully knowledgeable about special precautions associated with all high-risk medications",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 27,
+    "answerPageOrder": 5,
+    "characterLimit": null,
+    "guide": "Summary: Confirm patient/caregiver's awareness about high-risk drugs, precautions and reporting methods.\nGuide: Query if instructions for high-risk meds, their precautions, and report procedure were provided."
+  },
+  {
+    "code": "M2020",
+    "questionText": "Management of Oral Medications",
+    "questionSubtext": "Patient's current ability to prepare and take all oral medications reliably and safely, including administration of the correct dosage at the appropriate times/intervals. Excludes injectable and IV medications. (NOTE: This refers to ability, not compliance or willingness.)",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to independently take the correct oral medication(s) and proper dosage(s) at the correct times.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to take medication(s) at the correct times if:\n\ta. individual dosages are prepared in advance by another person; OR\n\tb. another person develops a drug diary or chart.",
+        "value": "1"
+      },
+      {
+        "text": "2. Able to take medication(s) at the correct times if given reminders by another person at the appropriate times",
+        "value": "2"
+      },
+      {
+        "text": "3. Unable to take medication unless administered by another person.",
+        "value": "3"
+      },
+      {
+        "text": "NA No oral medications prescribed.",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 28,
+    "answerPageOrder": 1,
+    "characterLimit": null,
+    "guide": "Guide: Evaluate the patient's present abilities in preparing and administering oral medications, ensuring the correct dosage and times. Consider their level of dependence or independence, excluding injectable and IV medications."
+  },
+  {
+    "code": "M2030",
+    "questionText": "Management of Injectable Medications",
+    "questionSubtext": "Patient's current ability to prepare and take all prescribed injectable medications reliably and safely, including administration of correct dosage at the appropriate times/intervals. Excludes IV medications.",
+    "sectionDescription": "Medications",
+    "section": "Section N",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. Able to independently take the correct medication(s) and proper dosage(s) at the correct times.",
+        "value": "0"
+      },
+      {
+        "text": "1. Able to take injectable medication(s) at the correct times if:\n\ta. individual syringes are prepared in advance by another person; OR\n\tb. another person develops a drug diary or chart.",
+        "value": "1"
+      },
+      {
+        "text": "2. Able to take medication(s) at the correct times if given reminders by another person based on the frequency of the injection",
+        "value": "2"
+      },
+      {
+        "text": "3. Unable to take injectable medication unless administered by another person.",
+        "value": "3"
+      },
+      {
+        "text": "NA No injectable medications prescribed.",
+        "value": "NA"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 28,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "guide": "Guide: Assess patient's capability to manage injectable medicines and assign a value (0, 1, 2, 3, or NA) depending on their degree of independence or need for assistance or reminders. Verify if any injectable medications are prescribed."
+  },
+  {
+    "code": "O0110-SOC/ROC",
+    "questionText": "Special Treatments, Procedures, and Programs",
+    "questionSubtext": "Check all of the following treatments, procedures, and programs that apply on admission.",
+    "sectionDescription": "Special Treatment, Procedures, and Programs",
+    "section": "Section O",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A1. Chemotherapy",
+        "value": false
+      },
+      {
+        "text": "\tA2 IV",
+        "value": false
+      },
+      {
+        "text": "\tA3. Oral",
+        "value": false
+      },
+      {
+        "text": "\tA10. Other",
+        "value": false
+      },
+      {
+        "text": "B1. Radiation",
+        "value": false
+      },
+      {
+        "text": "C1. Oxygen Therapy",
+        "value": false
+      },
+      {
+        "text": "\tC2. Continuous",
+        "value": false
+      },
+      {
+        "text": "\tC3. Intermittent",
+        "value": false
+      },
+      {
+        "text": "\tC4. High-concentration",
+        "value": false
+      },
+      {
+        "text": "D1. Suctioning",
+        "value": false
+      },
+      {
+        "text": "\tD2. Scheduled",
+        "value": false
+      },
+      {
+        "text": "\tD3. As Needed",
+        "value": false
+      },
+      {
+        "text": "E1. Tracheostomy care",
+        "value": false
+      },
+      {
+        "text": "F1. Invasive Mechanical Ventilator (ventilator or respirator)",
+        "value": false
+      },
+      {
+        "text": "G1. Non-invasive Mechanical Ventilator",
+        "value": false
+      },
+      {
+        "text": "\tG2. BiPAP",
+        "value": false
+      },
+      {
+        "text": "\tG3. CPAP",
+        "value": false
+      },
+      {
+        "text": "H1. IV Medications",
+        "value": false
+      },
+      {
+        "text": "\tH2. Vasoactive medications",
+        "value": false
+      },
+      {
+        "text": "\tH3. Antibiotics",
+        "value": false
+      },
+      {
+        "text": "\tH4. Anticoagulation",
+        "value": false
+      },
+      {
+        "text": "\tH10. Other",
+        "value": false
+      },
+      {
+        "text": "I1. Transfusions",
+        "value": false
+      },
+      {
+        "text": "J1. Dialysis",
+        "value": false
+      },
+      {
+        "text": "\tJ2. Hemodialysis",
+        "value": false
+      },
+      {
+        "text": "\tJ3. Peritoneal dialysis",
+        "value": false
+      },
+      {
+        "text": "O1. IV Access",
+        "value": false
+      },
+      {
+        "text": "\tO2. Peripheral",
+        "value": false
+      },
+      {
+        "text": "\tO3. Mid-line",
+        "value": false
+      },
+      {
+        "text": "\tO4. Central (e.g., PICC, tunneled, port)",
+        "value": false
+      },
+      {
+        "text": "Z1. None of the Above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 29,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "O0110-Discharge",
+    "questionText": "Special Treatments, Procedures, and Programs",
+    "questionSubtext": "Check all of the following treatments, procedures, and programs that apply at discharge.",
+    "sectionDescription": "Special Treatment, Procedures, and Programs",
+    "section": "Section O",
+    "type": "checkboxgroup",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "A1. Chemotherapy",
+        "value": false
+      },
+      {
+        "text": "\tA2 IV",
+        "value": false
+      },
+      {
+        "text": "\tA3. Oral",
+        "value": false
+      },
+      {
+        "text": "\tA10. Other",
+        "value": false
+      },
+      {
+        "text": "B1. Radiation",
+        "value": false
+      },
+      {
+        "text": "C1. Oxygen Therapy",
+        "value": false
+      },
+      {
+        "text": "\tC2. Continuous",
+        "value": false
+      },
+      {
+        "text": "\tC3. Intermittent",
+        "value": false
+      },
+      {
+        "text": "\tC4. High-concentration",
+        "value": false
+      },
+      {
+        "text": "D1. Suctioning",
+        "value": false
+      },
+      {
+        "text": "\tD2. Scheduled",
+        "value": false
+      },
+      {
+        "text": "\tD3. As Needed",
+        "value": false
+      },
+      {
+        "text": "E1. Tracheostomy care",
+        "value": false
+      },
+      {
+        "text": "F1. Invasive Mechanical Ventilator (ventilator or respirator)",
+        "value": false
+      },
+      {
+        "text": "G1. Non-invasive Mechanical Ventilator",
+        "value": false
+      },
+      {
+        "text": "\tG2. BiPAP",
+        "value": false
+      },
+      {
+        "text": "\tG3. CPAP",
+        "value": false
+      },
+      {
+        "text": "H1. IV Medications",
+        "value": false
+      },
+      {
+        "text": "\tH2. Vasoactive medications",
+        "value": false
+      },
+      {
+        "text": "\tH3. Antibiotics",
+        "value": false
+      },
+      {
+        "text": "\tH4. Anticoagulation",
+        "value": false
+      },
+      {
+        "text": "\tH10. Other",
+        "value": false
+      },
+      {
+        "text": "I1. Transfusions",
+        "value": false
+      },
+      {
+        "text": "J1. Dialysis",
+        "value": false
+      },
+      {
+        "text": "\tJ2. Hemodialysis",
+        "value": false
+      },
+      {
+        "text": "\tJ3. Peritoneal dialysis",
+        "value": false
+      },
+      {
+        "text": "O1. IV Access",
+        "value": false
+      },
+      {
+        "text": "\tO2. Peripheral",
+        "value": false
+      },
+      {
+        "text": "\tO3. Mid-line",
+        "value": false
+      },
+      {
+        "text": "\tO4. Central (e.g., PICC, tunneled, port)",
+        "value": false
+      },
+      {
+        "text": "Z1. None of the Above",
+        "value": false
+      }
+    ],
+    "answer": "",
+    "pageNumber": 30,
+    "answerPageOrder": 1,
+    "characterLimit": null
+  },
+  {
+    "code": "M1041",
+    "questionText": "Influenza Vaccine Data Collection Period",
+    "questionSubtext": "Does this episode of care (SOC/ROC to Transfer/Discharge) include any dates on or between October 1 and March 31?",
+    "sectionDescription": "Special Treatment, Procedures, and Programs",
+    "section": "Section O",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": "0. No ➔ Skip to M2401, Intervention Synopsis",
+        "value": "0"
+      },
+      {
+        "text": "1. Yes ➔ Continue to M1046, Influenza Vaccine Received",
+        "value": "1"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 30,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "skipToQuestion": [
+      {
+        "field": "M1041",
+        "fieldValueForSkip": "0",
+        "skipToField": "M2401",
+        "skipToText": "Skip to M2401, Intervention Synopsis"
+      },
+      {
+        "field": "M1041",
+        "fieldValueForSkip": "1",
+        "skipToField": "M1046",
+        "skipToText": "Continue to M1046, Influenza Vaccine Received"
+      }
+    ]
+  },
+  {
+    "code": "M1046",
+    "questionText": "Influenza Vaccine Received",
+    "questionSubtext": "Did the patient receive the influenza vaccine for this year’s flu season?",
+    "sectionDescription": "Special Treatment, Procedures, and Programs",
+    "section": "Section O",
+    "type": "codeinput",
+    "childQuestions": [],
+    "options": [
+      {
+        "text": " 1. Yes; received from your agency during this episode of care (SOC/ROC to Transfer/Discharge)",
+        "value": "1"
+      },
+      {
+        "text": "2. Yes; received from your agency during a prior episode of care (SOC/ROC to Transfer/Discharge)",
+        "value": "2"
+      },
+      {
+        "text": "3. Yes; received from another health care provider (for example, physician, pharmacist)",
+        "value": "3"
+      },
+      {
+        "text": "4. No; patient offered and declined",
+        "value": "4"
+      },
+      {
+        "text": "5. No; patient assessed and determined to have medical contraindication(s)",
+        "value": "5"
+      },
+      {
+        "text": "6. No; not indicated – patient does not meet age/condition guidelines for influenza vaccine",
+        "value": "6"
+      },
+      {
+        "text": "7. No; inability to obtain vaccine due to declared shortage",
+        "value": "7"
+      },
+      {
+        "text": "8. No; patient did not receive the vaccine due to reasons other than those listed in responses 4-7.",
+        "value": "8"
+      }
+    ],
+    "answer": "",
+    "pageNumber": 31,
+    "answerPageOrder": 1,
+    "characterLimit": null,
+    "guide": "Guide: Confirm if the patient has received the influenza vaccine for this year and specify who administered it or reasons for not receiving it."
+  },
+  {
+    "code": "M2401",
+    "questionText": "Intervention Synopsis",
+    "questionSubtext": "At the time of or at any time since the most recent SOC/ROC assessment, were the following interventions BOTH included in the physician-ordered plan of care AND implemented? (Mark only one box in each row.)",
+    "sectionDescription": "Participation in Assessment and Goal Setting",
+    "section": "Section Q",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 31,
+    "answerPageOrder": 2,
+    "characterLimit": null,
+    "questionTable": {
+      "headers": {
+        "columns": ["Plan/Intervention", "No", "Yes", "Not Applicable"]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "Plan/Intervention",
+              "type": "label",
+              "columnText": "b. Falls prevention interventions"
+            },
+            {
+              "columnName": "No",
+              "type": "checkbox",
+              "columnText": "0"
+            },
+            {
+              "columnName": "Yes",
+              "type": "checkbox",
+              "columnText": "1"
+            },
+            {
+              "columnName": "Not Applicable",
+              "type": "checkbox",
+              "columnText": "NA",
+              "additionalContext": "Every standardized, validated multi-factor fall risk assessment conducted at or since the most recent SOC/ROC assessment indicates the patient has no risk for falls."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "Plan/Intervention",
+              "type": "label",
+              "columnText": "c. Depression intervention(s) such as medication, referral for other treatment, or a monitoring plan for current treatment"
+            },
+            {
+              "columnName": "No",
+              "type": "checkbox",
+              "columnText": "0"
+            },
+            {
+              "columnName": "Yes",
+              "type": "checkbox",
+              "columnText": "1"
+            },
+            {
+              "columnName": "Not Applicable",
+              "type": "checkbox",
+              "columnText": "NA",
+              "additionalContext": "Patient has no diagnosis of depression AND every standardized, validated depression screening conducted at or since the most recent SOC/ROC assessment indicates the patient has: 1) no symptoms of depression; or 2) has some symptoms of depression but does not meet criteria for further evaluation of depression based on screening tool used"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "Plan/Intervention",
+              "type": "label",
+              "columnText": "d. Intervention(s) to monitor and mitigate pain"
+            },
+            {
+              "columnName": "No",
+              "type": "checkbox",
+              "columnText": "0"
+            },
+            {
+              "columnName": "Yes",
+              "type": "checkbox",
+              "columnText": "1"
+            },
+            {
+              "columnName": "Not Applicable",
+              "type": "checkbox",
+              "columnText": "NA",
+              "additionalContext": "Every standardized, validated pain assessment conducted at or since the most recent SOC/ROC assessment indicates the patient has no pain."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "Plan/Intervention",
+              "type": "label",
+              "columnText": "e. Intervention(s) to prevent pressure ulcers"
+            },
+            {
+              "columnName": "No",
+              "type": "checkbox",
+              "columnText": "0"
+            },
+            {
+              "columnName": "Yes",
+              "type": "checkbox",
+              "columnText": "1"
+            },
+            {
+              "columnName": "Not Applicable",
+              "type": "checkbox",
+              "columnText": "NA",
+              "additionalContext": "Every standardized, validated pressure ulcer risk assessment conducted at or since the most recent SOC/ROC assessment indicates the patient is not at risk of developing pressure ulcers"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "Plan/Intervention",
+              "type": "label",
+              "columnText": "f. Pressure ulcer treatment based on principles of moist wound healing"
+            },
+            {
+              "columnName": "No",
+              "type": "checkbox",
+              "columnText": "0"
+            },
+            {
+              "columnName": "Yes",
+              "type": "checkbox",
+              "columnText": "1"
+            },
+            {
+              "columnName": "Not Applicable",
+              "type": "checkbox",
+              "columnText": "NA",
+              "additionalContext": "Patient has no pressure ulcers OR has no pressure ulcers for which moist wound healing is indicated."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "code": "GG0130-1",
+    "questionText": "Self-Care",
+    "questionSubtext": "Code the patient’s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/ROC, code the reason. Code the patient’s discharge goal(s) using the 6-point scale. Use of codes 07, 09, 10 or 88 is permissible to code discharge goal(s).\n\nSafety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, score according to amount of assistance provided. \nActivities may be completed with or without assistive devices. \n\t06. Independent – Patient completes the activity by themself with no assistance from a helper.\n\t05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the \n\tactivity. \n\t04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient \n\tcompletes activity. Assistance may be provided throughout the activity or intermittently. \n\t03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, but provides less \n\tthan half the effort. \n\t02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and provides more than \n\thalf the effort. \n\t01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more \n\thelpers is required for the patient to complete the activity.\nIf activity was not attempted, code reason:\n\t07. Patient refused\n\t09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation or injury.\n\t10. Not attempted due to environmental limitations (e.g., lack of eq",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "table",
+    "options": [],
+    "answer": "",
+    "pageNumber": 14,
+    "answerPageOrder": 1,
+    "characterLimit": 2,
+    "questionTable": {
+      "headers": {
+        "columns": ["1. SOC/ROCPerformance"]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from mouth, and manage denture soaking and rinsing with use of equipment."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "E. Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "F. Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "G. Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "H. Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. DischargeGoal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        }
+      ]
+    },
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [""]
+    }
+  },
+  {
+    "code": "GG0130-2",
+    "questionText": "Self-Care",
+    "questionSubtext": "Did the agency contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the SOC/ROC? \n\nSafety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, score according to amount of assistance provided. \nActivities may be completed with or without assistive devices. \n\t06. Independent – Patient completes the activity by themself with no assistance from a helper.\n\t05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the \n\tactivity. \n\t04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient \n\tcompletes activity. Assistance may be provided throughout the activity or intermittently. \n\t03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, but provides less \n\tthan half the effort. \n\t02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and provides more than \n\thalf the effort. \n\t01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more \n\thelpers is required for the patient to complete the activity.\nIf activity was not attempted, code reason:\n\t07. Patient refused\n\t09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation or injury.\n\t10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)\n\t88. Not attempted due to medical condition or safety concerns",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 16,
+    "answerPageOrder": 1,
+    "characterLimit": 2,
+    "questionTable": {
+      "headers": {
+        "columns": ["3. Discharge Performance", ""]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from mouth, and manage denture soaking and rinsing with use of equipment."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "E. Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "F. Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "G. Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "H. Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable"
+            }
+          ]
+        }
+      ]
+    },
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [""]
+    }
+  },
+  {
+    "code": "GG0170-1",
+    "questionText": "Mobility",
+    "questionSubtext": "Code the patient’s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/ROC, code the reason. Code the patient’s discharge goal(s) using the 6-point scale. Use of codes 07, 09, 10 or 88 is permissible to code discharge goal(s). \n\nSafety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, score according to amount of assistance provided. \nActivities may be completed with or without assistive devices. \n\t06. Independent – Patient completes the activity by themself with no assistance from a helper.\n\t05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the \n\tactivity. \n\t04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient \n\tcompletes activity. Assistance may be provided throughout the activity or intermittently. \n\t03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, but provides less \n\tthan half the effort. \n\t02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and provides more than \n\thalf the effort. \n\t01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more \n\thelpers is required for the patient to complete the activity.\nIf activity was not attempted, code reason:\n\t07. Patient refused\n\t09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation or injury.\n\t10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)\n\t88. Not attempted due to medical condition or safety concerns",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 17,
+    "answerPageOrder": 1,
+    "characterLimit": 2,
+    "questionTable": {
+      "headers": {
+        "columns": ["1. SOC/ROCPerformance", "2. Discharge Goal", ""]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "D. Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "E. Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair)."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "F. Toilet transfer: The ability to get on and off a toilet or commode"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "G. Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the ability to open/close door or fasten seat belt."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "I. Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. If SOC/ROC performance is coded 07, 09, 10 or 88, ➔Skip to GG0170M, 1 step (curb)"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "J. Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "K. Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space"
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "L. Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "M. 1 step (curb): The ability to go up and down a curb or up and down one step.If SOC/ROC performance is coded 07, 09, 10 or 88, ➔ Skip to GG0170P, Picking up object."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "N. 4 steps: The ability to go up and down four steps with or without a rail. If SOC/ROC performance is coded 07, 09, 10 or 88, ➔ Skip to GG0170P, Picking up object."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "O. 12 steps: The ability to go up and down 12 steps with or without a rail."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "P. Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "R. Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "S. Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or similar space."
+            },
+            {
+              "columnName": "1. SOC/ROCPerformance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "2. Discharge Goal",
+              "type": "input",
+              "columnText": ""
+            }
+          ]
+        }
+      ]
+    },
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [""]
+    }
+  },
+  {
+    "code": "GG0170-2",
+    "questionText": "Mobility",
+    "questionSubtext": "Code the patient’s usual performance at Discharge for each activity using the 6-point scale. If activity was not attempted at Discharge, code the reason.\n\nSafety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, score according to amount of assistance provided. \nActivities may be completed with or without assistive devices. \n\t06. Independent – Patient completes the activity by themself with no assistance from a helper.\n\t05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the \n\tactivity.\n\t04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient \n\tcompletes activity. Assistance may be provided throughout the activity or intermittently. \n\t03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, but provides less \n\tthan half the effort.\n\t02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and provides more than \n\thalf the effort. \n\t01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more \n\thelpers is required for the patient to complete the activity.\nIf activity was not attempted, code reason:\n\t07. Patient refused",
+    "sectionDescription": "Functional Abilities and Goals",
+    "section": "Section GG",
+    "type": "table",
+    "childQuestions": [],
+    "options": [],
+    "answer": "",
+    "pageNumber": 19,
+    "answerPageOrder": 1,
+    "characterLimit": 2,
+    "questionTable": {
+      "headers": {
+        "columns": ["3. Discharge Performance", ""]
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "A. Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "B. Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "C. Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "D. Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "E. Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair)."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "F. Toilet transfer: The ability to get on and off a toilet or commode"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "G. Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the ability to open/close door or fasten seat belt."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "I. Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. If SOC/ROC performance is coded 07, 09, 10 or 88, ➔Skip to GG0170M, 1 step (curb). If Follow-Up performance is coded 07, 09, 10 or 88 ➔Skip to GG0170M, 1 step (curb)"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "J. Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "K. Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "L. Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "M. 1 step (curb): The ability to go up and down a curb or up and down one step.If Follow-up performance is coded 07, 09, 10 or 88, ➔ Skip to GG0170Q, Does patient use wheelchair and/or scooter?"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "N. 4 steps: The ability to go up and down four steps with or without a rail."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "O. 12 steps: The ability to go up and down 12 steps with or without a rail."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "P. Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "R. Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "columnName": "3. Discharge Performance",
+              "type": "input",
+              "columnText": ""
+            },
+            {
+              "columnName": "",
+              "type": "label",
+              "columnText": "S. Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or similar space."
+            }
+          ]
+        }
+      ]
+    },
+    "scoringKey": {
+      "title": "Coding:",
+      "options": [""]
+    }
+  }
+]
