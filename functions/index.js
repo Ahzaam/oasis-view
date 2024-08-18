@@ -23,3 +23,5 @@ exports.oasisReviewUpdate = onRequest(async (request, response) => {
     response.send(data);
   });
 });
+
+process();

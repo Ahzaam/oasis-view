@@ -135,6 +135,16 @@ const Questions = ({ questionData, docId }) => {
     setTotalAnswerCount(answerCount);
   };
 
+  const getPercentage = (questions, filterFn) => {
+    return (questions.filter(filterFn).length / questions.length) * 100;
+  };
+
+  const getColorClass = (percentage, inverse = false) => {
+    if (inverse) percentage = 100 - percentage;
+    if (percentage < 50) return "bg-red-500 text-white";
+    if (percentage < 70) return "bg-yellow-400 text-gray-800";
+    return "bg-green-500 text-white";
+  };
   useEffect(() => {
     getCounts();
   }, []);
@@ -151,230 +161,146 @@ const Questions = ({ questionData, docId }) => {
               No questions found, Try changing the filters
             </div>
           )}
-          <div className="flex flex-col gap-4 p-4 bg-gray-100 rounded-lg">
-            {/* Model Questions */}
-            <div className="grid grid-cols-3 gap-4">
-              <div className="p-4 bg-white rounded-lg shadow relative">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Total Questions
-                  </h3>
-                  <p className="text-2xl font-bold text-gray-600">
-                    {questions.ClinicalAssessmentDynamicQuestions.length}
+          <div className="bg-[#f5f5f7] min-h-screen py-12">
+            <div className="container mx-auto px-4">
+              <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+                Patient Assessment Overview
+              </h1>
+
+              {/* Patient Information Card */}
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8 p-6">
+                <div className="flex justify-between items-center mb-4">
+                  <h2 className="text-2xl font-semibold text-gray-900">
+                    {questions.PatientDetails.FirstName}{" "}
+                    {questions.PatientDetails.LastName}
+                  </h2>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-100 px-3 py-1 rounded-full">
+                    {questions.PatientDetails.Gender}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-600">
+                  <p>
+                    DOB:{" "}
+                    {new Date(
+                      questions.PatientDetails.Dob
+                    ).toLocaleDateString()}
+                  </p>
+                  <p>Email: {questions.PatientDetails.EmailAddress}</p>
+                  <p>SSN: {questions.PatientDetails.SSN}</p>
+                  <p>
+                    Diagnosis: {questions.PatientDetails.HistoricalDiagnosis}
+                  </p>
+                  <p>ICD Code: {questions.PatientDetails.HistoricalICDCodes}</p>
+                  <p>Race: {questions.PatientDetails.Race}</p>
+                  <p>Ethnicity: {questions.PatientDetails.Ethnicity}</p>
+                  <p>Care Center ID: {questions.PatientDetails.CareCenterId}</p>
+                  <p>
+                    Service Type ID: {questions.PatientDetails.ServiceTypeId}
                   </p>
                 </div>
               </div>
-              {totalAnswerCount.model1 > 0 && (
-                <div className="p-4 bg-white rounded-lg shadow relative">
-                  <div>
+
+              {/* Question Statistics */}
+              <div className="flex flex-col gap-4 p-4 bg-white rounded-2xl shadow-lg">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                  Assessment Questions
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="p-4 bg-gray-100 rounded-lg shadow relative">
                     <h3 className="text-lg font-semibold mb-2">
-                      Model 1 Questions
+                      Total Questions
                     </h3>
                     <p className="text-2xl font-bold text-gray-600">
-                      {totalAnswerCount.model1_answer}/{totalAnswerCount.model1}
+                      {questions.ClinicalAssessmentDynamicQuestions.length}
                     </p>
                   </div>
-                  <div
-                    className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${
-                      (totalAnswerCount.model1_answer /
-                        totalAnswerCount.model1) *
-                        100 <
-                      50
-                        ? "bg-red-500 text-white"
-                        : (totalAnswerCount.model1_answer /
-                            totalAnswerCount.model1) *
-                            100 <
-                          70
-                        ? "bg-yellow-400 text-gray-800"
-                        : "bg-green-500 text-white"
-                    }`}
-                  >
-                    {(
-                      (totalAnswerCount.model1_answer /
-                        totalAnswerCount.model1) *
-                      100
-                    ).toFixed(0)}
-                    %
-                  </div>
-                </div>
-              )}
 
-              {totalAnswerCount.model2 > 0 && (
-                <div className="p-4 bg-white rounded-lg shadow relative">
-                  <div>
+                  <div className="p-4 bg-gray-100 rounded-lg shadow relative">
                     <h3 className="text-lg font-semibold mb-2">
-                      Model 2 Questions
+                      Answered Questions
                     </h3>
                     <p className="text-2xl font-bold text-gray-600">
-                      {totalAnswerCount.model2_answer}/{totalAnswerCount.model2}
-                    </p>
-                  </div>
-                  <div
-                    className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${
-                      (totalAnswerCount.model2_answer /
-                        totalAnswerCount.model2) *
-                        100 <
-                      50
-                        ? "bg-red-500 text-white"
-                        : (totalAnswerCount.model2_answer /
-                            totalAnswerCount.model2) *
-                            100 <
-                          70
-                        ? "bg-yellow-400 text-gray-800"
-                        : "bg-green-500 text-white"
-                    }`}
-                  >
-                    {(
-                      (totalAnswerCount.model2_answer /
-                        totalAnswerCount.model2) *
-                      100
-                    ).toFixed(0)}
-                    %
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Question Statistics */}
-            <div className="grid grid-cols-3 gap-4">
-              <div className="p-4 bg-white rounded-lg shadow relative">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Answered Questions
-                  </h3>
-                  <p className="text-2xl font-bold text-gray-600">
-                    {
-                      questions.ClinicalAssessmentDynamicQuestions.filter(
-                        (question) =>
-                          question.ClinicalAssessmentDynamicResults[0]
-                            .Response !== ""
-                      ).length
-                    }
-                  </p>
-                </div>
-                <div
-                  className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.ClinicalAssessmentDynamicResults.length > 0
-                    ).length /
-                      questions.ClinicalAssessmentDynamicQuestions.length) *
-                      100 <
-                    50
-                      ? "bg-red-500 text-white"
-                      : (questions.ClinicalAssessmentDynamicQuestions.filter(
+                      {
+                        questions.ClinicalAssessmentDynamicQuestions.filter(
                           (question) =>
                             question.ClinicalAssessmentDynamicResults.length > 0
-                        ).length /
-                          questions.ClinicalAssessmentDynamicQuestions.length) *
-                          100 <
-                        70
-                      ? "bg-yellow-400 text-gray-800"
-                      : "bg-green-500 text-white"
-                  }`}
-                >
-                  {(
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.ClinicalAssessmentDynamicResults.length > 0
-                    ).length /
-                      questions.ClinicalAssessmentDynamicQuestions.length) *
-                    100
-                  ).toFixed(0)}
-                  %
-                </div>
-              </div>
-              <div className="p-4 bg-white rounded-lg shadow relative">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Unanswered Questions
-                  </h3>
-                  <p className="text-2xl font-bold text-gray-600">
-                    {
-                      questions.ClinicalAssessmentDynamicQuestions.filter(
-                        (question) =>
-                          question.ClinicalAssessmentDynamicResults.length === 0
-                      ).length
-                    }
-                  </p>
-                </div>
-                <div
-                  className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.ClinicalAssessmentDynamicResults.length === 0
-                    ).length /
-                      questions.length) *
-                      100 <
-                    50
-                      ? "bg-green-500 text-white"
-                      : (questions.ClinicalAssessmentDynamicQuestions.filter(
+                        ).length
+                      }
+                    </p>
+                    <div
+                      className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${getColorClass(
+                        getPercentage(
+                          questions.ClinicalAssessmentDynamicQuestions,
+                          (q) => q.ClinicalAssessmentDynamicResults.length > 0
+                        )
+                      )}`}
+                    >
+                      {getPercentage(
+                        questions.ClinicalAssessmentDynamicQuestions,
+                        (q) => q.ClinicalAssessmentDynamicResults.length > 0
+                      ).toFixed(0)}
+                      %
+                    </div>
+                  </div>
+
+                  <div className="p-4 bg-gray-100 rounded-lg shadow relative">
+                    <h3 className="text-lg font-semibold mb-2">
+                      Unanswered Questions
+                    </h3>
+                    <p className="text-2xl font-bold text-gray-600">
+                      {
+                        questions.ClinicalAssessmentDynamicQuestions.filter(
                           (question) =>
                             question.ClinicalAssessmentDynamicResults.length ===
                             0
-                        ).length /
-                          questions.ClinicalAssessmentDynamicQuestions.length) *
-                          100 <
-                        70
-                      ? "bg-yellow-400 text-gray-800"
-                      : "bg-red-500 text-white"
-                  }`}
-                >
-                  {(
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.ClinicalAssessmentDynamicResults.length === 0
-                    ).length /
-                      questions.ClinicalAssessmentDynamicQuestions.length) *
-                    100
-                  ).toFixed(0)}
-                  %
-                </div>
-              </div>
-              <div className="p-4 bg-white rounded-lg shadow relative">
-                <div>
-                  <h3 className="text-green-500  text-lg font-semibold mb-2">
-                    Human Reviewed
-                  </h3>
-                  <p className="text-2xl font-bold text-gray-600">
-                    {
-                      questions.ClinicalAssessmentDynamicQuestions.filter(
-                        (question) => question.newAnswer
-                      ).length
-                    }
-                    /{questions.ClinicalAssessmentDynamicQuestions.length}
-                  </p>
-                </div>
-                <div
-                  className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.newAnswer && question.newAnswer.length > 0
-                    ).length /
-                      questions.length) *
-                      100 <
-                    50
-                      ? "bg-red-500 text-white"
-                      : (questions.ClinicalAssessmentDynamicQuestions.filter(
-                          (question) =>
-                            question.newAnswer && question.newAnswer.length > 0
-                        ).length /
-                          questions.length) *
-                          100 <
-                        70
-                      ? "bg-yellow-400 text-gray-800"
-                      : "bg-green-500 text-white"
-                  }`}
-                >
-                  {(
-                    (questions.ClinicalAssessmentDynamicQuestions.filter(
-                      (question) =>
-                        question.newAnswer && question.newAnswer.length > 0
-                    ).length /
-                      questions.ClinicalAssessmentDynamicQuestions.length) *
-                    100
-                  ).toFixed(0)}
-                  %
+                        ).length
+                      }
+                    </p>
+                    <div
+                      className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${getColorClass(
+                        getPercentage(
+                          questions.ClinicalAssessmentDynamicQuestions,
+                          (q) => q.ClinicalAssessmentDynamicResults.length === 0
+                        ),
+                        true
+                      )}`}
+                    >
+                      {getPercentage(
+                        questions.ClinicalAssessmentDynamicQuestions,
+                        (q) => q.ClinicalAssessmentDynamicResults.length === 0
+                      ).toFixed(0)}
+                      %
+                    </div>
+                  </div>
+
+                  <div className="p-4 bg-gray-100 rounded-lg shadow relative">
+                    <h3 className="text-lg font-semibold mb-2 text-green-600">
+                      Human Reviewed
+                    </h3>
+                    <p className="text-2xl font-bold text-gray-600">
+                      {
+                        questions.ClinicalAssessmentDynamicQuestions.filter(
+                          (question) => question.newAnswer
+                        ).length
+                      }
+                      /{questions.ClinicalAssessmentDynamicQuestions.length}
+                    </p>
+                    <div
+                      className={`absolute bottom-2 right-2 text-lg font-bold rounded-full px-3 py-1 ${getColorClass(
+                        getPercentage(
+                          questions.ClinicalAssessmentDynamicQuestions,
+                          (q) => q.newAnswer && q.newAnswer.length > 0
+                        )
+                      )}`}
+                    >
+                      {getPercentage(
+                        questions.ClinicalAssessmentDynamicQuestions,
+                        (q) => q.newAnswer && q.newAnswer.length > 0
+                      ).toFixed(0)}
+                      %
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -394,7 +320,7 @@ const Questions = ({ questionData, docId }) => {
                       <thead>
                         <tr className="bg-gray-200 text-gray-700">
                           <th className="px-4 py-2 text-left font-semibold">
-                            Model {index + 1}
+                            Model
                           </th>
                           <th className="px-4 py-2 text-left font-semibold">
                             Code
@@ -416,7 +342,7 @@ const Questions = ({ questionData, docId }) => {
                               </span>
                             }
                           </td>
-                          <td className="px-4 py-2">{question.code}</td>
+                          <td className="px-4 py-2">{question.questionCode}</td>
                           <td className="px-4 py-2">{question.section}</td>
                           <td className="px-4 py-2">
                             {question.ClinicalAssessmentDynamicResults.length >

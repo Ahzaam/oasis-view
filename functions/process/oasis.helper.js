@@ -24,7 +24,7 @@ async function getVisitByScheduleId(scheduleId, templateId) {
           Q.questionText AS QuestionText,
           Q.questionType AS QuestionType,
           Q.answerType AS AnswerType,
-          Q.code AS QuestionCode,
+          Q.QuestionCode AS QuestionCode,
           Q.Hint AS QuestionHint,
           O.id AS OptionId,
           O.label AS OptionLabel,
@@ -134,22 +134,27 @@ async function getTranscription(scheduleId) {
   }
 }
 
+async function getPractitionerDetails(practitionerId) {
+  try {
+    const practitioner = await sequelizeConnection.query(
+      `SELECT * FROM Practitioner WHERE PractitionerId = ${practitionerId}`
+    );
+    return practitioner[0][0];
+  } catch (e) {
+    console.log(e);
+  }
+}
 
 async function getPatientDetails(patientId) {
-
   try {
     const patient = await sequelizeConnection.query(
       `SELECT * FROM Patients WHERE PatientId = ${patientId}`
     );
     return patient[0][0];
-  }
-  catch (e) {
+  } catch (e) {
     console.log(e);
-  } 
+  }
 }
-
-
-
 
 async function getOasisQuestions(scheduleId) {
   try {
@@ -163,4 +168,10 @@ async function getOasisQuestions(scheduleId) {
   }
 }
 
-module.exports = { getAllSchedules, getVisitByScheduleId, getTranscription , getPatientDetails};
+module.exports = {
+  getAllSchedules,
+  getVisitByScheduleId,
+  getTranscription,
+  getPatientDetails,
+  getPractitionerDetails,
+};

@@ -6,7 +6,8 @@ const {
   getAllSchedules,
   getVisitByScheduleId,
   getTranscription,
-  getPatientDetails
+  getPatientDetails,
+  getPractitionerDetails,
 } = require("./oasis.helper");
 
 async function processDB() {
@@ -15,6 +16,8 @@ async function processDB() {
     const writed = [];
     for (let i = 0; i < schedules[0].length; i++) {
       console.log(schedules[0][i].ScheduledId);
+      // if (schedules[0][i].ScheduledId < 1422) continue;
+
       // HEKBI
       if (await checkScheduleExists(schedules[0][i].ScheduledId)) {
         continue;
@@ -34,6 +37,10 @@ async function processDB() {
 
       visitTemplate.PatientDetails = JSON.stringify(
         await getPatientDetails(schedules[0][i].PatientId)
+      );
+
+      visitTemplate.PractitionerDetails = JSON.stringify(
+        await getPractitionerDetails(schedules[0][i].PractitionerId)
       );
 
       if (visitTemplate.processType === null) {
