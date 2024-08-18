@@ -15,7 +15,9 @@ const Questions = ({ questionData, docId }) => {
   const sections = [
     ...new Set(
       questionData.ClinicalAssessmentDynamicQuestions.map(
-        (question) => question.sectionDescription
+        (question) =>{
+          console.log(question)
+          question.section}
       )
     ),
   ];
@@ -96,11 +98,11 @@ const Questions = ({ questionData, docId }) => {
       setQuestions(questionData);
       setCurrentFilteredQuestions(questionData);
     } else {
-      const newQuestions = questionData.filter((question) =>
+      const newQuestions = questionData.ClinicalAssessmentDynamicQuestions.filter((question) =>
         newSelectedSections.includes(question.sectionDescription)
       );
-      setQuestions(newQuestions);
-      setCurrentFilteredQuestions(newQuestions);
+      setQuestions({ ...questionData, ClinicalAssessmentDynamicQuestions: newQuestions });
+      setCurrentFilteredQuestions({ ...questionData, ClinicalAssessmentDynamicQuestions: newQuestions });
     }
   };
 
