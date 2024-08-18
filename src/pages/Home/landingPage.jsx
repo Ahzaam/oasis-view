@@ -12,6 +12,7 @@ import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
   const [answers, setAnswers] = useState([]);
+  const [selectedClinician, setSelectedClinician] = useState("");
   const navigate = useNavigate();
 
   // Get a list of cities from your database
@@ -31,9 +32,6 @@ const LandingPage = () => {
     answerList.sort((a, b) => {
       return a.docId - b.docId;
     });
-    // jsonData.forEach((question) => {dew
-    //   question.answer = cityList.answers[question.code];
-    // });
 
     answerList.map((answer) => {
       answer.visitTranscriptions = answer.visitTranscriptions
@@ -54,7 +52,7 @@ const LandingPage = () => {
         : null;
     });
 
-    // take only question that has ClinicalAssessmentDynamicQuestions
+    // take only questions that have ClinicalAssessmentDynamicQuestions
 
     setAnswers(
       answerList.filter((answer) => answer.ClinicalAssessmentDynamicQuestions)
@@ -69,14 +67,51 @@ const LandingPage = () => {
   useEffect(() => {
     getCities();
   }, []);
+
+  // Get a list of unique clinicians
+  const uniqueClinicians = Array.from(
+    new Set(
+      answers.map(
+        (answer) =>
+          `${answer.PractitionerDetails.FirstName} ${answer.PractitionerDetails.LastName}`
+      )
+    )
+  );
+
+  const filteredAnswers = selectedClinician
+    ? answers.filter(
+        (answer) =>
+          `${answer.PractitionerDetails.FirstName} ${answer.PractitionerDetails.LastName}` === selectedClinician
+      )
+    : answers;
+
   return (
     <div className="bg-[#f5f5f7] min-h-screen py-12">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
           Completed Schedules
         </h1>
+        <div className="mb-4">
+          <label htmlFor="clinicianFilter" className="block text-sm font-medium text-gray-700">
+            Filter by Clinician:
+          </label>
+          <select
+            id="clinicianFilter"
+            name="clinicianFilter"
+            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+            value={selectedClinician}
+            onChange={(e) => setSelectedClinician(e.target.value)}
+          >
+            <option value="">All</option>
+            {uniqueClinicians.map((clinician, index) => (
+              <option key={index} value={clinician}>
+                {clinician}
+              </option>
+            ))}
+          </select>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {answers.map((answer, index) => (
+          {filteredAnswers.map((answer, index) => (
             <div
               key={index}
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer"
